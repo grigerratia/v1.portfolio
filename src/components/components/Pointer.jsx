@@ -17,7 +17,6 @@ function Pointer(){
     return (
         <div className="pointer"
             style={{
-                // background: `radial-gradient(600px at ${position.x}px ${position.y}px, #c8542d26, transparent 80%)`
                 background: `radial-gradient(600px at ${position.x}px ${position.y}px, #1d4ed826, transparent 80%)`
             }}
         >

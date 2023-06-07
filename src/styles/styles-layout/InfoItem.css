@@ -16,33 +16,13 @@
     border-bottom: solid 0.1px #06162b23;
 }
 
+.info-item:hover .info-elements .anchor {
+    color: #ff7423;
+}
+
 .info-elements {
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
-}
-
-.info-elements .action {
-    padding: 0.5rem;
-    border-radius: 9999px;
-    cursor: pointer;
-    color: #ff7423;
-    background-color: #ff825911;
-    font-size: 0.8rem;
-}
-
-.info-elements .action:hover {
-    color: #e2e8f0;
-}
-
-
-
-.info-title {
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    max-width: fit-content;
-    line-height: 1rem;
-    color: #e2e8f0;
+    gap: 8px;
 }

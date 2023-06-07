@@ -1,0 +1,22 @@
+.action {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    color: #ff7423;
+    background-color: #ff825911;
+    font-size: 0.8rem;
+}
+
+.action:hover {
+    color: #e2e8f0;
+}
+
+.anchor {
+    padding: 4px;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.anchor:hover {
+    color: #e2e8f0 !important;
+}

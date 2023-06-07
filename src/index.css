@@ -68,8 +68,14 @@ h1 {
   font-size: .8rem;
   padding: 1rem 8rem;
 }
+
 .email a {
-  margin: 1rem 0rem;
+  padding: 1rem;
+}
+
+.email a:hover {
+  color: #ff7423;
+  transform: translateY(-4px);
 }
 
 .email hr {

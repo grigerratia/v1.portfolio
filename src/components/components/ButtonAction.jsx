@@ -1,3 +1,4 @@
+import '../../styles/styles-components/ButtonAction.css'
 
 function ButtonAction({ className, elementName }) {
     return(

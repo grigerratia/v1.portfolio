@@ -1,13 +1,15 @@
 import '../../styles/styles-layout/InfoItem.css'
+import InfoTitle from '../components/InfoTitle'
 import ButtonAction from '../components/ButtonAction'
 
 function InfoItem({ children, className, title, elements}) {
     return(
         <div className='info-item'>
 
-            <div className='info-title'>{ title }</div>
+            <InfoTitle title={title} />
 
             <div className='info-elements'>
+                { children }
                 {
                     elements?.map((element) => {
                         return(

@@ -1,0 +1,23 @@
+.pointer {
+    /* background: radial-gradient(circle, #c8542d26, transparent 80%); */
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    /* border-radius: 9999px; */
+    display: grid;
+    place-content: center;
+    pointer-events: none;
+    z-index: -999;
+    top: 0;
+    left: 0;
+}
+
+.center-pointer {
+    width: 1px;
+    height: 1px;
+    background-color: #3ca1ff00;
+    border-radius: 9999px;
+}
+
+
+/* 600px at 750px 395px */

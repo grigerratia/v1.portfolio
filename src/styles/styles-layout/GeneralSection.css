@@ -1,0 +1,60 @@
+main .general .photo-name {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main .general .photo-name:hover + hr {
+    background-color: #ff7423;
+} */
+
+main .general .photo-name .box-photoName {
+    display: flex;
+    align-items: center;
+}
+
+main .general .photo-name .box-photoName img {
+    background-color: #00ffff1c;
+    width: 0px;
+    height: 40px;
+    border-radius: 9999px;
+    transition: all .3s ease-in-out;
+}
+
+main .general .photo-name:hover > .box-photoName img {
+    width: 40px;
+    margin-right: 1rem;
+}
+
+main .general .photo-name:hover>h2 {
+    color: #ff7423;
+    margin-left: 0;
+}
+
+main .general {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px
+}
+
+main .general .photo-name h1 {
+    margin: 0;
+    cursor: pointer;
+    color: #e2e8f0;
+    letter-spacing: 0.0005em;
+    word-spacing: 0.1rem;
+}
+
+main .general .photo-name h2 {
+    margin: 0;
+    color: #e2e8f0;
+    cursor: pointer;
+    margin-left: 110px;
+    font-size: 1.34rem;
+}
+
+main .general hr {
+    width: 100%;
+    border: 1px solid #08276d4f;
+    border-radius: 999px;
+}

@@ -1,0 +1,14 @@
+header .socialIcons-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #e2e8f0;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: translateY(-4px);
+}

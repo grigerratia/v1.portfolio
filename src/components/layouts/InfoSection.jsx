@@ -1,52 +1,40 @@
 import '../../styles/styles-layout/InfoSection.css'
+import InfoItem from './InfoItem'
 
 function InfoSection() {
     return(
         <section className="info">
 
-            <div className='box-info-item'>
-                <div className='info-title'>Skills</div>
-                <div className="info-item skills">
-                    <div className="javascript skill">JavaScript</div>
-                    <div className="next skill">Next.js</div>
-                    <div className="react skill">React.js</div>
-                    <div className="vue skill">Vue.js</div>
-                    <div className="tailwind skill">Tailwind</div>
-                    <div className="api-consume skill">Api Consume</div>
-                    <div className="node skill">Node.js</div>
-                    <div className="express skill">Express</div>
-                    <div className="mongodb skill">MongoDB</div>
-                    <div className="api-rest skill">API REST</div>
-                    <div className="figma skill">Figma</div>
-                </div>
-            </div>
+            <InfoItem title='Skills'>
+                <div className="action">JavaScript</div>
+                <div className="action">Next.js</div>
+                <div className="action">React.js</div>
+                <div className="action">Vue.js</div>
+                <div className="action">Tailwind</div>
+                <div className="action">Api Consume</div>
+                <div className="action">Node.js</div>
+                <div className="action">Express</div>
+                <div className="action">MongoDB</div>
+                <div className="action">API REST</div>
+                <div className="action">Figma</div>
+            </InfoItem>
 
-            <div className='box-info-item'>
-                <div className='info-title'>Portafolio</div>
-                <div className="info-item proyects">
-                    <div className="info-proyect twitter-clone">Twitter Clone</div>
-                    <div className="info-proyect tic-tac-toe">Tic Tac Toe</div>
-                    <div className="info-proyect store">Store</div>
-                    <div className="info-proyect todo-list">Todo List</div>
-                    <div className="info-proyect traslate-mony">Traslate Money</div>
-                    <div className="info-proyect betel-church">Betel Church</div>
-                </div>
-            </div>
+            <InfoItem title='Proyectos'>
+                <div className="anchor">Twitter Clone</div>
+                <div className="anchor">Tic Tac Toe</div>
+                <div className="anchor">Store</div>
+                <div className="anchor">Todo List</div>
+                <div className="anchor">Traslate Money</div>
+                <div className="anchor">Betel Church</div>
+            </InfoItem>
 
-            <div className='box-info-item'>
-                <div className='info-title'>Experiencia</div>
-                <div className="info-item experiences">
-                    <div className="info-experience">Backend Developer en Cesticom</div>
-                </div>
-            </div>
+            <InfoItem title="Experiencia">
+                <div className="anchor">Backend Developer en Cesticom</div>
+            </InfoItem>
 
-
-            <div className='box-info-item box-contact'>
-                <div className='info-title'>Contacto</div>
-                <div className='mailtome'>
-                    <a href='mailto:grigerratia@gmail.com'>Salúdame</a>
-                </div>
-            </div>
+            <InfoItem title='Contacto'>
+                <a href='mailto:grigerratia@gmail.com' className='mailtome'>Salúdame</a>
+            </InfoItem>
 
     </section>
     )

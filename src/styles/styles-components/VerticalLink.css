@@ -1,0 +1,24 @@
+.vertical-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    padding: 1rem 8rem;
+}
+
+.vertical-link a {
+    padding: 1rem;
+}
+
+.vertical-link a:hover {
+    color: #ff7423;
+    transform: translateY(-4px);
+}
+
+.vertical-link hr {
+    height: 200px;
+}

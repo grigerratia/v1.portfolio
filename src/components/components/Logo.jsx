@@ -23,7 +23,7 @@ function Logo(){
         setTimeout(()=> {
             setMessage(THANKS[Math.floor(Math.random() * (9 - 0))])
             setANew('new-news')
-        }, 90000)
+        }, 10000)
     }
 
     return (

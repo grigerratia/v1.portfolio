@@ -1,6 +1,10 @@
-header .socialIcons-menu {
+.socialIcons-menu {
     display: flex;
     gap: 1rem;
+}
+
+.socialIcons-menu a:hover {
+    color: #e2e8f0;
 }
 
 .social-icon {

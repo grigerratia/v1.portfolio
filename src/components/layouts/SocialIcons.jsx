@@ -7,9 +7,9 @@ function SocialICons() {
             {
                 ICONS.map((elem, i)=>{
                     return (
-                        <div className={ elem.className } key={ elem.name }>
+                        <a href={ elem.href } target='blank' className={ elem.className } key={ elem.name }>
                             { elem.icon }
-                        </div>
+                        </a>
                     )
                 })
             }

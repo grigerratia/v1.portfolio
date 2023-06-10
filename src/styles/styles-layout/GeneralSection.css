@@ -25,7 +25,7 @@ main .general .photo-name {
     margin-right: 1rem;
 }
 
-.general .photo-name:hover>h2 {
+.general .photo-name:hover .download_cv h2 {
     color: #ff7423;
     margin-left: 0;
 }
@@ -39,7 +39,6 @@ main .general .photo-name {
 
 .general .photo-name h1 {
     margin: 0;
-    cursor: pointer;
     color: #e2e8f0;
     letter-spacing: 0.0005em;
     word-spacing: 0.1rem;
@@ -48,9 +47,29 @@ main .general .photo-name {
 .general .photo-name h2 {
     margin: 0;
     color: #e2e8f0;
-    cursor: pointer;
     margin-left: 110px;
     font-size: 1.34rem;
+}
+
+.general .photo-name .download_cv {
+    display: flex;
+    align-items: center;
+}
+
+.general .photo-name .download_cv a {
+    opacity: 0;
+    font-size: 2rem;
+    transition: all .1s !important;
+}
+
+.general .photo-name:hover .download_cv a {
+    opacity: 1;
+    padding-left: 1rem;
+}
+
+.general .photo-name .download_cv a:hover {
+    cursor: pointer;
+    color: #ff7423 !important;
 }
 
 .general hr {

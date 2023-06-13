@@ -1,14 +1,16 @@
+@import url('./src/styles/base/base.css');
+
 .action {
     padding: 0.5rem;
     border-radius: 9999px;
     cursor: pointer;
-    color: #ff7423;
-    background-color: #ff825911;
+    color: var(--principal);
+    background-color: #928f8e11;
     font-size: 0.8rem;
 }
 
 .action:hover {
-    color: #e2e8f0;
+    color: var(--white);
 }
 
 .anchor {
@@ -18,5 +20,5 @@
 }
 
 .anchor:hover {
-    color: #e2e8f0 !important;
+    color: var(--white) !important;
 }

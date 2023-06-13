@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+@import url('./src/styles/base/base.css');
 
 :root {
   font-family: 'Be Vietnam Pro', sans-serif;
   color-scheme: light dark;
-  color: #6f88c0;
-  background-color: #10182F;
+  color: var(--letter);
+  background-color: var(--secondary);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  transition: all .3s ease-in-out;
 }
 
 * {
@@ -25,11 +25,11 @@ p {
 
 a {
   font-weight: 500;
-  color: #e2e8f0;
+  color: var(--white);
   text-decoration: inherit;
 }
 a:hover {
-  color: #ff7423;
+  color: var(--principal);
 }
 
 body {

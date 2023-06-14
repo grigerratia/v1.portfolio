@@ -1,16 +1,464 @@
 :root {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color-scheme: light dark;
+    color: var(--letter);
+    background-color: var(--secondary);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*? ========================ROOT THEME============================== */
+:root,
+:root.griger-theme {
+    /* size */
+    --width: 800px;
+    --height: 800px;
+
     /* Colors */
     --principal: #ff7423;
     --secondary: #10182F;
     --letter: #6f88c0;
     --white: #e2e8f0;
 
-    --pointer-gradient: #1d4ed826;
+    /* colors of boxes */
+    --button-background: #c457320e;
+    --button-shadow: #ff68179a;
+    --hr-color: #08276d4f;
+    --info-item-color: #f19e6d1f;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
 }
 
-/* .javascript-theme {
-    --principal: #f0db4f;
-    --secondary: #323330;
-    --letter: #d3d3d3;
-    --white: #f8f7ee;
-} */
+/*? ========================JAVASCRIPT THEME============================== */
+:root.javascript-theme {
+    /* size */
+    --width: 500px;
+    --height: 500px;
+
+    /* Colors */
+    --principal: #2395ff;
+    --secondary: #f0db4f;
+    --letter: #72746f;
+    --white: #323330;
+
+    /* position */
+    --botton: 4rem;
+    --left: 0px;
+
+    /* colors of boxes */
+    --button-background: #FFFFFF;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #08276d4f;
+    --info-item-color: #ebebeb;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
+}
+
+/*? ========================NEXT THEME============================== */
+:root.next-theme {
+    /* size */
+    --width: 500px;
+    --height: 500px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: -4rem;
+    --left: 0px;
+
+    /* Colors */
+    --principal: #3290fc;
+    --secondary: #000000;
+    --letter: #adadad;
+    --white: #fff;
+
+    /* colors of boxes */
+    --button-background: #1f1f1f;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #08276d4f;
+    --info-item-color: #1b1b1b;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://media.crystallize.com/crystallize_marketing/23/1/14/6/next_js_logo.svg');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
+}
+
+/*? ========================REACT THEME============================== */
+:root.react-theme {
+    /* size */
+    --width: 800px;
+    --height: 800px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 0rem;
+    --left: -400px;
+
+    /* Colors */
+    --principal: #61dafb;
+    --secondary: #23272f;
+    --letter: #adadad;
+    --white: #fff;
+
+    /* colors of boxes */
+    --button-background: #1f1f1f;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #323742;
+    --info-item-color: #23272f;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://user-images.githubusercontent.com/21227322/31187159-01c8d592-a8ff-11e7-9386-af708a7ae9de.png');
+
+    /* keyframes */
+    --keyframe-from: rotateZ(0deg);
+    --keyframe-midle: rotateZ(180deg);
+    --keyframe-to: rotateZ(360deg);
+}
+
+/*? ========================NEXT THEME============================== */
+:root.vue-theme {
+    /* size */
+    --width: 500px;
+    --height: 500px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4rem;
+    --left: 0px;
+
+    /* Colors */
+    --principal: #41b782;
+    --secondary: #1a1a1a;
+    --letter: #adadad;
+    --white: #e1e1e1;
+
+    /* colors of boxes */
+    --button-background: #1f1f1f;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #08276d4f;
+    --info-item-color: #242424;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://logo-download.com/wp-content/data/images/png/Vue.js-logo.png');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(8rem);
+    --keyframe-to: translateY(0rem);
+}
+
+/*? ========================NUXT THEME============================== */
+:root.nuxt-theme {
+    /* size */
+    --width: 500px;
+    --height: 500px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4rem;
+    --left: 0px;
+
+    /* Colors */
+    --principal: #4de7a8;
+    --secondary: #001e26;
+    --letter: #a7c1c2;
+    --white: #fff;
+
+    /* colors of boxes */
+    --button-background: #003543;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #08276d4f;
+    --info-item-color: #0035439f;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://nuxt.com/assets/design-kit/logo/icon-green.png');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(8rem);
+    --keyframe-to: translateY(0rem);
+}
+
+/*? ========================TAILWIND THEME============================== */
+:root.tailwind-theme {
+    /* size */
+    --width: 500px;
+    --height: 500px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4rem;
+    --left: 0px;
+
+    /* Colors */
+    --principal: #38bdf8;
+    --secondary: #0f172a;
+    --letter: #94a3bb;
+    --white: #e2e8f0;
+
+    /* colors of boxes */
+    --button-background: #38bdf81a;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #1a2949;
+    --info-item-color: #1e293b;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(8rem);
+    --keyframe-to: translateY(0rem);
+}
+
+/*? ========================NODE THEME============================== */
+:root.node-theme {
+    /* size */
+    --width: 350px;
+    --height: 400px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4.2rem;
+    --left: 0px;
+
+    /* Colors */
+    --principal: #84ba64;
+    --secondary: #090c15;
+    --letter: #465346;
+    --white: #ffffff;
+
+    /* colors of boxes */
+    --button-background: #1f2f2b;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #111727;
+    --info-item-color: #43853d;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
+}
+
+/*? ========================EXPRESS THEME============================== */
+:root.express-theme {
+    /* size */
+    --width: 400px;
+    --height: 400px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4.2rem;
+    --left: 2rem;
+
+    /* Colors */
+    --principal: #259dff;
+    --secondary: #fdfdfd;
+    --letter: #aeaeae;
+    --white: #353535;
+
+    /* colors of boxes */
+    --button-background: #fdfdfd;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #111727;
+    --info-item-color: #eeeeee;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
+}
+
+/*? ========================MONGOOSE THEME============================== */
+:root.mongoose-theme {
+    /* size */
+    --width: 400px;
+    --height: 400px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4.2rem;
+    --left: 2rem;
+
+    /* Colors */
+    --principal: #880000;
+    --secondary: #ffffff;
+    --letter: #777777;
+    --white: #000000;
+
+    /* colors of boxes */
+    --button-background: #f5f5f5;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #0971b2;
+    --info-item-color: #d6d6d6;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://tsed.io/mongoose.png');
+
+    /* keyframes */
+    --keyframe-from: translateX(0rem);
+    --keyframe-midle: translateX(8rem);
+    --keyframe-to: translateX(0rem);
+}
+
+/*? ========================MONGODB THEME============================== */
+:root.mongodb-theme {
+    /* size */
+    --width: 400px;
+    --height: 100px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 16rem;
+    --left: 2rem;
+
+    /* Colors */
+    --principal: #13aa52;
+    --secondary: #ffffff;
+    --letter: #00684a;
+    --white: #001e2b;
+
+    /* colors of boxes */
+    --button-background: #f5f5f5;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #13aa52;
+    --info-item-color: #00ed64;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png');
+
+    /* keyframes */
+    --keyframe-from: translateX(0rem);
+    --keyframe-midle: translateX(8rem);
+    --keyframe-to: translateX(0rem);
+}
+
+/*? ========================FIGMA THEME============================== */
+:root.figma-theme {
+    /* size */
+    --width: 240px;
+    --height: 360px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4rem;
+    --left: 4rem;
+
+    /* Colors */
+    --principal: #0d99ff;
+    --secondary: #ffffff;
+    --letter: #f24d18;
+    --white: #a358ff;
+
+    /* colors of boxes */
+    --button-background: #fdfdfd;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #ff7362;
+    --info-item-color: #02d084;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(4rem);
+    --keyframe-to: translateY(0rem);
+}

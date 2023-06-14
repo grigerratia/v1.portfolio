@@ -1,3 +1,5 @@
+@import '../base/base.css';
+
 .info-item {
     /* box-shadow: -2px 0px 16px 1px #ff68179a; */
     padding: 16px;
@@ -8,7 +10,7 @@
 }
 
 .info-item:hover {
-    background-color: #f19e6d1f;
+    background-color: var(--info-item-color);
     border-radius: 0.25rem;
     border-top: solid 0.1px #e2e8f023;
     border-left: solid 0.1px #e2e8f023;
@@ -17,7 +19,7 @@
 }
 
 .info-item:hover .info-elements .anchor {
-    color: #ff7423;
+    color: var(--principal);
 }
 
 .info-elements {
@@ -25,4 +27,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    overflow: visible;
 }

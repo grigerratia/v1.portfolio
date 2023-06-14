@@ -1,5 +1,5 @@
 import '../../styles/styles-layout/InfoSection.css'
-import SKILLS from '../../utils/myskyls'
+import SKILLS from '../../utils/myskylls'
 import PROYECTS from '../../utils/myproyects'
 import EXPERIENCES from '../../utils/myexperiences'
 import InfoItem from './InfoItem'

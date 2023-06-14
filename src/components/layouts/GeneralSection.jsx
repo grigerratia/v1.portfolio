@@ -3,12 +3,15 @@ import { MdCloudDownload } from 'react-icons/md'
 import Details from '../components/Details'
 
 function GeneralSection() {
+
+    const setTheme = () => document.documentElement.className = 'griger-theme';
+
     return(
         <section className="general">
                 <div className="photo-name">
                     <div className="box-photoName">
                         <img src="https://unavatar.io/twitter/grigerratia" alt="my-photo" />
-                        <h1>Griger Ratia</h1>
+                        <h1 onClick={ setTheme } >Griger Ratia</h1>
                     </div>
                     <div className="download_cv">
                         <h2>Desarrollador Web</h2>

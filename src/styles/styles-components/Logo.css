@@ -1,3 +1,5 @@
+@import '../base/base.css';
+
 .logo {
     display: flex;
     align-items: center;
@@ -11,9 +13,9 @@
 }
 
 .logo .new-news {
-    background-color: #10182f;
+    background-color: var(--secondary);
     border-radius: 9999px;
-    border: solid 1px #ff7423;
+    border: solid 1px var(--principal);
     width: 12px;
     height: 12px;
     transform: translateX(-12px);
@@ -23,11 +25,11 @@
     font-weight: 700;
     overflow: hidden;
     align-self: flex-start;
-    color: #e2e8f0;
+    color: var(--white);
 }
 
 .logo:hover .new-news {
-    background-color: #ff7423;
+    background-color: var(--principal);
 }
 
 .logo .not-news {

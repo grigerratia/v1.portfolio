@@ -2,6 +2,7 @@ import '../../styles/styles-layout/Card.css'
 import Header from './Header'
 import Main from './Main'
 import Footer from './Footer'
+import BigLogo from '../components/BigLogo'
 
 function Card() {
 
@@ -9,6 +10,7 @@ function Card() {
       <div className="card">
         <Header />
         <Main />
+        <BigLogo />
         <Footer />
       </div>
   )

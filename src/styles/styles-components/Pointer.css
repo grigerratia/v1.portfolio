@@ -1,3 +1,5 @@
+@import '../base/base.css';
+
 .pointer {
     position: fixed;
     width: 100vw;
@@ -13,6 +15,6 @@
 .center-pointer {
     width: 1px;
     height: 1px;
-    background-color: #3ca1ff00;
+    background-color: var(--pointer-gradient);
     border-radius: 9999px;
 }

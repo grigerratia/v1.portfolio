@@ -1,0 +1,26 @@
+@import '../base/base.css';
+
+.big-logo {
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    z-index: -1;
+    background-image: var(--big-logo);
+    background-size: cover;
+    bottom: var(--botton);
+    left: var(--left);
+    animation-duration: 8s;
+    animation-name: animLogo;
+    animation-iteration-count: infinite;
+    transition: all 0s ease-in-out ;
+    background-color: var(--background-logo-img);
+    border-radius: var(--border-logo-img);
+    background-position: center;
+    overflow: visible;
+}
+
+@keyframes animLogo {
+    from { transform: var(--keyframe-from); }
+    50% { transform: var(--keyframe-midle); }
+    to { transform: var(--keyframe-to); }
+};

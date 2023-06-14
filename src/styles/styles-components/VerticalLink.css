@@ -1,3 +1,5 @@
+@import '../base/base.css';
+
 .vertical-link {
     position: absolute;
     bottom: 0;
@@ -15,7 +17,7 @@
 }
 
 .vertical-link a:hover {
-    color: #ff7423;
+    color: var(--principal);
     transform: translateY(-4px);
 }
 

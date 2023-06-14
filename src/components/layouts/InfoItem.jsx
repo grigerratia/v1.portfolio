@@ -3,6 +3,7 @@ import InfoTitle from '../components/InfoTitle'
 import ButtonAction from '../components/ButtonAction'
 
 function InfoItem({ children, className, title, elements}) {
+
     return(
         <div className='info-item'>
 
@@ -13,7 +14,7 @@ function InfoItem({ children, className, title, elements}) {
                 {
                     elements?.map((element) => {
                         return(
-                            <ButtonAction className={ className } elementName={ element.name } key={ element.name }/>
+                            <ButtonAction className={ className } elementName={ element.name } key={ element.name } classTheme={element.classTheme} />
                         )
                     })
                 }

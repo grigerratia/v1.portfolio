@@ -1,12 +1,14 @@
+@import '../base/base.css';
+
 .mailtome {
     font-size: .8rem;
-    border: solid 1px #ff7423;
+    border: solid 1px var(--principal);
     border-radius: 9999px;
-    color: #e2e8f0;
+    color: var(--white);
     text-align: center;
     padding: 4px 28px;
 }
 
 .mailtome:hover {
-    box-shadow: 0px 0px 20px 1px #ff7423;
+    box-shadow: 0px 0px 20px 1px var(--principal);
 }

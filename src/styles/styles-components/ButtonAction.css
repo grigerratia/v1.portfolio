@@ -1,11 +1,11 @@
-@import url('./src/styles/base/base.css');
+@import url('../base/base.css');
 
 .action {
+    background-color: var(--button-background);
     padding: 0.5rem;
     border-radius: 9999px;
     cursor: pointer;
     color: var(--principal);
-    background-color: #928f8e11;
     font-size: 0.8rem;
 }
 

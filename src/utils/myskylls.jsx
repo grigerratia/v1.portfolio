@@ -12,6 +12,7 @@ const SKILLS = [
     { name: 'MongoDB', classTheme: 'mongodb-theme' },
     { name: 'API REST', classTheme: 'api-rest-theme' },
     { name: 'Figma', classTheme: 'figma-theme' },
+    { name: 'WordPress', classTheme: 'wordpress-theme' },
 ]
 
 export default SKILLS

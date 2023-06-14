@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
 :root {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    --font-principal: 'Be Vietnam Pro', sans-serif;
+    --font-wordpress: 'Marcellus', serif;
+    --font-javascript: 'Marcellus', serif;
+    --font-next: 'Marcellus', serif;
+    font-family: var(--font-principal);
     color-scheme: light dark;
     color: var(--letter);
     background-color: var(--secondary);
@@ -14,6 +32,7 @@
 /*? ========================ROOT THEME============================== */
 :root,
 :root.griger-theme {
+
     /* size */
     --width: 800px;
     --height: 800px;
@@ -44,6 +63,8 @@
 
 /*? ========================JAVASCRIPT THEME============================== */
 :root.javascript-theme {
+    font-family: 'Courier Prime', monospace;
+
     /* size */
     --width: 500px;
     --height: 500px;
@@ -78,6 +99,9 @@
 
 /*? ========================NEXT THEME============================== */
 :root.next-theme {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+
     /* size */
     --width: 500px;
     --height: 500px;
@@ -116,6 +140,8 @@
 
 /*? ========================REACT THEME============================== */
 :root.react-theme {
+    font-family: 'Kanit', sans-serif;
+
     /* size */
     --width: 800px;
     --height: 800px;
@@ -153,8 +179,10 @@
     --keyframe-to: rotateZ(360deg);
 }
 
-/*? ========================NEXT THEME============================== */
+/*? ========================VUE THEME============================== */
 :root.vue-theme {
+    font-family: 'Public Sans', sans-serif;
+
     /* size */
     --width: 500px;
     --height: 500px;
@@ -194,6 +222,9 @@
 
 /*? ========================NUXT THEME============================== */
 :root.nuxt-theme {
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 1px;
+
     /* size */
     --width: 500px;
     --height: 500px;
@@ -233,6 +264,8 @@
 
 /*? ========================TAILWIND THEME============================== */
 :root.tailwind-theme {
+    font-family: 'Mulish', sans-serif;
+
     /* size */
     --width: 500px;
     --height: 500px;
@@ -249,7 +282,7 @@
     --principal: #38bdf8;
     --secondary: #0f172a;
     --letter: #94a3bb;
-    --white: #e2e8f0;
+    --white: #ffffff;
 
     /* colors of boxes */
     --button-background: #38bdf81a;
@@ -272,6 +305,8 @@
 
 /*? ========================NODE THEME============================== */
 :root.node-theme {
+    font-family: 'Arsenal', sans-serif;
+
     /* size */
     --width: 350px;
     --height: 400px;
@@ -310,6 +345,8 @@
 
 /*? ========================EXPRESS THEME============================== */
 :root.express-theme {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
     /* size */
     --width: 400px;
     --height: 400px;
@@ -348,6 +385,8 @@
 
 /*? ========================MONGOOSE THEME============================== */
 :root.mongoose-theme {
+    font-family: 'Poppins', sans-serif;
+
     /* size */
     --width: 400px;
     --height: 400px;
@@ -387,6 +426,9 @@
 
 /*? ========================MONGODB THEME============================== */
 :root.mongodb-theme {
+    font-family: 'Lusitana', serif;
+    font-size: large;
+
     /* size */
     --width: 400px;
     --height: 100px;
@@ -426,6 +468,8 @@
 
 /*? ========================FIGMA THEME============================== */
 :root.figma-theme {
+    font-family: 'Kanit', sans-serif;
+
     /* size */
     --width: 240px;
     --height: 360px;
@@ -461,4 +505,125 @@
     --keyframe-from: translateY(0rem);
     --keyframe-midle: translateY(4rem);
     --keyframe-to: translateY(0rem);
+}
+
+/*? ========================API CONSUME THEME============================== */
+:root.api-consume-theme {
+    /* size */
+    --width: 750px;
+    --height: 400px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 4rem;
+    --left: 4rem;
+
+    /* Colors */
+    --principal: #0091a0;
+    --secondary: #ececec;
+    --letter: #17191a;
+    --white: #016175;
+
+    /* colors of boxes */
+    --button-background: #55ffd7;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #ffffff;
+    --info-item-color: #00dfb2;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://espublicogestiona.com/wp-content/uploads/2021/07/api.gif');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(4rem);
+    --keyframe-to: translateY(0rem);
+}
+
+/*? ========================API REST THEME============================== */
+:root.api-rest-theme {
+    font-family: monospace;
+    font-size: large;
+
+    /* size */
+    --width: 600px;
+    --height: 220px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 8rem;
+    --left: 8rem;
+
+    /* Colors */
+    --principal: #e46116;
+    --secondary: #ffffff;
+    --letter: #8d8d8d;
+    --white: #141414;
+
+    /* colors of boxes */
+    --button-background: #f5f7a0;
+    --button-shadow: #f0da4f8a;
+    --hr-color: #f7f7f7;
+    --info-item-color: #cfcd2b;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://afteracademy.com/images/mvc-architecture-in-web-applications-working-851592344a7c710d.gif');
+
+    /* keyframes */
+    --keyframe-from: translateY(0rem);
+    --keyframe-midle: translateY(0rem);
+    --keyframe-to: translateY(0rem);
+}
+
+/*? ========================WORDPRESS THEME============================== */
+:root.wordpress-theme {
+    font-family: var(--font-wordpress);
+
+    /* size */
+    --width: 400px;
+    --height: 400px;
+
+    /* borders */
+    --background-logo-img: #fffff00;
+    --border-logo-img: 0%;
+
+    /* position */
+    --botton: 5rem;
+    --left: 0rem;
+
+    /* Colors */
+    --principal: #00769c;
+    --secondary: #fdfdfd;
+    --letter: #2c3338;
+    --white: #101517;
+
+    /* colors of boxes */
+    --button-background: #ffffff;
+    --button-shadow: #f04f578a;
+    --hr-color: #e9e9e9;
+    --info-item-color: #BBE0FA;
+
+    /* pointer */
+    /** --pointer-gradient: #1d4ed826; */
+    --pointer-gradient: #1d4ed800;
+
+    /* image */
+    --big-logo: url('https://img.freepik.com/iconos-gratis/wordpress_318-183439.jpg');
+
+    /* keyframes */
+    --keyframe-from: rotateY(0deg);
+    --keyframe-to: rotateY(360deg);
 }

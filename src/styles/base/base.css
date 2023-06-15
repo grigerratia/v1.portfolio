@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
@@ -10,13 +10,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 
 :root {
     --font-principal: 'Be Vietnam Pro', sans-serif;
     --font-wordpress: 'Marcellus', serif;
-    --font-javascript: 'Marcellus', serif;
-    --font-next: 'Marcellus', serif;
     font-family: var(--font-principal);
     color-scheme: light dark;
     color: var(--letter);
@@ -63,7 +62,7 @@
 
 /*? ========================JAVASCRIPT THEME============================== */
 :root.javascript-theme {
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Fira Code', monospace;
 
     /* size */
     --width: 500px;

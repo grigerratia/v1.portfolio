@@ -1,7 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import PointerContext from "../../context/PointerContext";
 import '../../styles/styles-components/Pointer.css'
 
+
 function Pointer(){
+    const { colorGradient } = useContext(PointerContext)
 
     const [position, setPosition] = useState({ x: 0, y: 0 })
 
@@ -17,7 +20,7 @@ function Pointer(){
     return (
         <div className="pointer"
             style={{
-                background: `radial-gradient(600px at ${position.x}px ${position.y}px, #1d4ed826, transparent 80%)`
+                background: `radial-gradient(600px at ${position.x}px ${position.y}px, ${colorGradient}, transparent 80%)`
             }}
         >
             <div className="center-pointer">{ null }</div>

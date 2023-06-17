@@ -77,3 +77,11 @@ main .general .photo-name {
     border: 1px solid var(--hr-color);
     border-radius: 999px;
 }
+
+.details {
+    overflow: scroll;
+}
+
+.details::-webkit-scrollbar {
+    display: none;
+}

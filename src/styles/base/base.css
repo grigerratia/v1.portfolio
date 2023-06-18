@@ -65,34 +65,35 @@
     font-family: 'Fira Code', monospace;
 
     /* size */
-    --width: 500px;
-    --height: 500px;
+    --width: 400px;
+    --height: 400px;
 
     /* Colors */
     --principal: #e76e0a;
     --secondary: #f0db4f;
-    --letter: #72746f;
+    --letter: #323330;
     --white: #323330;
 
     /* position */
-    --botton: 4rem;
-    --left: 0px;
+    --botton: 5rem;
+    --left: -5rem;
 
     /* colors of boxes */
     --button-background: #ffffff;
     --hr-color: #e9d66a;
     --info-item-color: #ffffff54;
+    --info-item-color-solid: #fffffff5;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
     --pointer-gradient: #1d4ed800;
 
     /* image */
-    --big-logo: url('https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png');
+    --big-logo: url('https://thumbs2.imgbox.com/a9/5b/19DISaYV_t.png');
 
     /* keyframes */
     --keyframe-from: rotateY(0deg);
-    --keyframe-to: rotateY(360deg);
+    --keyframe-to: rotateY(0deg);
 }
 
 /*? ========================NEXT THEME============================== */
@@ -120,10 +121,9 @@
 
     /* colors of boxes */
     --button-background: #1f1f1f;
-    --button-shadow: #f0da4f8a;
     --hr-color: #3290fc;
-    --hr-color: #ffffff1e;
     --info-item-color: #1b1b1b;
+    --info-item-color-solid: #1b1b1b;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -164,6 +164,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #323742;
     --info-item-color: #23272f71;
+    --info-item-color-solid: #3E3C4E;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -205,6 +206,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #08276d4f;
     --info-item-color: #33495d;
+    --info-item-color-solid: #33495d;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -221,7 +223,7 @@
 
 /*? ========================NUXT THEME============================== */
 :root.nuxt-theme {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1.5px;
 
     /* size */
@@ -247,6 +249,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #4de7a8;
     --info-item-color: #0035439f;
+    --info-item-color-solid: #003543;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -288,6 +291,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #721aad4f;
     --info-item-color: #6363637a;
+    --info-item-color-solid: #3E3C4E;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -322,7 +326,7 @@
     /* Colors */
     --principal: #84ba64;
     --secondary: #090c15;
-    --letter: #677967;
+    --letter: #9aa59a;
     --white: #ffffff;
 
     /* colors of boxes */
@@ -330,6 +334,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #111727;
     --info-item-color: #43853d;
+    --info-item-color-solid: #2b312b;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -370,6 +375,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #111727;
     --info-item-color: #eeeeee;
+    --info-item-color-solid: #ffffff;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -407,9 +413,9 @@
 
     /* colors of boxes */
     --button-background: #f5f5f5;
-    --button-shadow: #f0da4f8a;
-    --hr-color: #0971b2;
+    --hr-color: #d6d6d6;
     --info-item-color: #d6d6d6;
+    --info-item-color-solid: #d6d6d6;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -449,9 +455,9 @@
 
     /* colors of boxes */
     --button-background: #f5f5f5;
-    --button-shadow: #f0da4f8a;
     --hr-color: #13aa52;
     --info-item-color: #00ed64;
+    --info-item-color-solid: #f5f5f5;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -462,7 +468,7 @@
 
     /* keyframes */
     --keyframe-from: translateX(0rem);
-    --keyframe-midle: translateX(8rem);
+    --keyframe-midle: translateX(0rem);
     --keyframe-to: translateX(0rem);
 }
 
@@ -490,7 +496,6 @@
 
     /* colors of boxes */
     --button-background: #fdfdfd;
-    --button-shadow: #dfdfdf;
     --hr-color: #ff7362;
     --info-item-color: #02d084;
 
@@ -532,6 +537,7 @@
     --button-shadow: #01380121;
     --hr-color: #ffffff;
     --info-item-color: #00dfb2;
+    --info-item-color-solid: #00dfb2;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -574,6 +580,7 @@
     --button-shadow: #f0da4f8a;
     --hr-color: #f7f7f7;
     --info-item-color: #cfcd2b;
+    --info-item-color-solid: #f0f0f0;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */
@@ -615,6 +622,7 @@
     --button-shadow: #e0f7ff;
     --hr-color: #e9e9e9;
     --info-item-color: #BBE0FA;
+    --info-item-color-solid: #BBE0FA;
 
     /* pointer */
     /** --pointer-gradient: #1d4ed826; */

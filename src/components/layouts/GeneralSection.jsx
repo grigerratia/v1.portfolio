@@ -1,13 +1,13 @@
 import '../../styles/styles-layout/GeneralSection.css'
 import { MdCloudDownload } from 'react-icons/md'
-import Details from '../components/Details'
-import PointerContext from "../../context/PointerContext";
-import { useContext } from 'react';
-import JavascriptPage from './javascript/JavascriptPage';
 
+import { useContext } from 'react';
+import Details from '../components/Details'
+import SkillPage from './skills-pages/SkillPage';
+import AppContext from '../../context/AppContext';
 
 function GeneralSection() {
-    const { setColorGradient } = useContext(PointerContext)
+    const { setColorGradient } = useContext(AppContext)
 
     const setTheme = () => {
         document.documentElement.className = 'griger-theme';
@@ -30,10 +30,7 @@ function GeneralSection() {
                 </div>
                 <hr />
                 <Details>
-                    <JavascriptPage />
-                    <p className='details'>
-                        Soy desarrollador Web, especializado en los Stacks MERN y MEVN. Inicié mis estudios en <a href='https://platzi.com/p/Griger/'>Platzi</a>, donde desarrollé mis capacidades para crear interfaces de usuario usando buenas prácticas con ReactJs y NextJs. Realicé un bootcamp en la empresa <a href='https://cesticom.com/'>Cesticom</a>, en donde aprendí y demostré mis habilidades para la construcción de API REST con Node, Express y MongoDB.
-                    </p>
+                    <SkillPage/>
                 </Details>
         </section>
     )

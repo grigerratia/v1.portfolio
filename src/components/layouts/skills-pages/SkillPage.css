@@ -1,0 +1,52 @@
+.infoSkill {
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.infoSkill:hover {
+    background-color: var(--info-item-color-solid);
+}
+
+.infoSkill-header {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.infoSkill-header--left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.infoSkill-header--logo {
+    color: var(--principal);
+}
+
+.percentage-level {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: var(--principal);
+    border-radius: 9999px;
+    text-align: end;
+    padding: 0 16px;
+    color: var(--white);
+    font-weight: bolder;
+    transition: all 2s ease-out;
+}
+
+.percentege-box {
+    width: 200px;
+    background-color: var(--white);
+    border-radius: 9999px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.infoSkill-paragraph p{
+    margin-bottom: 1rem;
+}

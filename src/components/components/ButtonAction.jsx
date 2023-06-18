@@ -1,10 +1,10 @@
 import { useContext } from 'react';
 import '../../styles/styles-components/ButtonAction.css'
-import PointerContext from "../../context/PointerContext";
+import AppContext from "../../context/AppContext";
 
 
 function ButtonAction({ className, elementName, classTheme, colorPointer }) {
-    const { setColorGradient } = useContext(PointerContext)
+    const { setColorGradient } = useContext(AppContext)
 
     const setTheme = () => {
         document.documentElement.className = classTheme;

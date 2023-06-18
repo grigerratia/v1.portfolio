@@ -1,16 +1,16 @@
 import Card from '../layouts/Card'
 import Pointer from '../components/Pointer'
 import VerticalLink from '../components/VerticalLink'
-import StatePointerContext from '../../context/StatePointerContext'
+import StateAppContext from '../../context/StateAppContext'
 
 function App() {
 
     return(
         <>
-            <StatePointerContext>
+            <StateAppContext>
                 <Card className="card"/>
                 <Pointer />
-            </StatePointerContext>
+            </StateAppContext>
             <VerticalLink />
         </>
     )

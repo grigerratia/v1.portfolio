@@ -1,10 +1,10 @@
 import { useEffect, useState, useContext } from "react";
-import PointerContext from "../../context/PointerContext";
+import AppContext from "../../context/AppContext";
 import '../../styles/styles-components/Pointer.css'
 
 
 function Pointer(){
-    const { colorGradient } = useContext(PointerContext)
+    const { colorGradient } = useContext(AppContext)
 
     const [position, setPosition] = useState({ x: 0, y: 0 })
 

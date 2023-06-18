@@ -3,6 +3,7 @@
 * {
   transition: all .2s ease-in-out;
   overflow: hidden;
+  margin: 0;
 }
 
 p {

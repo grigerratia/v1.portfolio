@@ -1,5 +1,5 @@
 const SKILLS = [
-    { name: 'JavaScript', classTheme: 'javascript-theme', colorPointer: '#e9d66as'},
+    { name: 'JavaScript', classTheme: 'javascript-theme', colorPointer: '#857e5700'},
     { name: 'Next.js', classTheme: 'next-theme', colorPointer: '#cccccc1e' },
     { name: 'React.js', classTheme: 'react-theme', colorPointer: '#1d4ed826' },
     { name: 'Vue.js', classTheme: 'vue-theme', colorPointer: '#2d2d2d28' },

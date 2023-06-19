@@ -14,7 +14,14 @@ function InfoItem({ children, className, title, elements}) {
                 {
                     elements?.map((element) => {
                         return(
-                            <ButtonAction className={ className } elementName={ element.name } key={ element.name } classTheme={element.classTheme} colorPointer={element.colorPointer} />
+                            <ButtonAction
+                                key={ element.name }
+                                className={ className }
+                                elementName={ element.name }
+                                classTheme={element.classTheme}
+                                colorPointer={element.colorPointer}
+                                data={element.data}
+                            />
                         )
                     })
                 }

@@ -4,7 +4,8 @@ const PROYECTS = [
     { name: 'Store' },
     { name: 'Todo List' },
     { name: 'Traslate Money' },
-    { name: 'Betel Church' }
+    { name: 'Betel Church' },
+    { name: 'Condostart' },
 ]
 
 export default PROYECTS

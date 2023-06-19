@@ -3,7 +3,7 @@ import AppContext from "./AppContext";
 
 function StateAppContext({ children }) {
     const [colorGradient, setColorGradient] = useState('#1d4ed826')
-    const [infoShowed, setInfoShowed] = useState('details')
+    const [infoShowed, setInfoShowed] = useState({})
 
     return (
         <AppContext.Provider

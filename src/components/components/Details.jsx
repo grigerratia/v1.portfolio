@@ -1,11 +1,7 @@
-import '../../styles/styles-components/Details.css'
+import "../../styles/styles-components/Details.css";
 
-function Details ( { children } ) {
-    return(
-        <>
-            { children }
-        </>
-    )
+function Details({ children }) {
+	return <div className='general-details'>{children}</div>;
 }
 
-export default Details
+export default Details;

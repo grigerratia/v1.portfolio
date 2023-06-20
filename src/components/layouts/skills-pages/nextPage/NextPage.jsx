@@ -1,16 +1,22 @@
-import MyServices from "../MyServices";
+import MyServices from "../../../components/MyServices";
 
 export default function NextPage() {
-
-    return (
-        <>
-            <p className='javascript-page-text'>
-                Next.js me ha ayudado a ser mucho más organizado, como aquí en este <a href=""><strong>EVIDENTE LINK</strong></a>. No fue fácil aprender como funciona el <i>Sistema de archivos Next</i>, o sus <i>Funciones</i>, pero superé pronto el reto. Ahora puedo construir cosas como <a href=""><strong>Aplicacines Responsive</strong></a>.
-            </p>
-            <p>
-                Si quieres Aprender Next.js, puedo enseñarte a desarrollar con este lenguaje de forma profesional <a href="#"><strong>Aquí</strong></a>.
-            </p>
-            <MyServices />
-        </>
-    )
+	return (
+		<>
+			<p className='javascript-page-text'>
+				Next.js es una maravilla, y tengo el honor de usarlo en mis proyectos
+				más grandes y ambiciosos para garantizar la escalabilidad, el
+				enrutamiento, el rerenderizado, entre otras cosas.
+			</p>
+			<p>
+				Actualmente, trabajo en mis proyectos más ambiciosos con esta poderosa
+				herramienta. Puedes ver un adelanto de uno de estos proyectos
+				<a href='#'>
+					<strong> Aquí</strong>
+				</a>
+				.
+			</p>
+			<MyServices />
+		</>
+	);
 }

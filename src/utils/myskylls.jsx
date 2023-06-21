@@ -5,10 +5,13 @@ import {
 	SiTailwindcss,
 	SiNodedotjs,
 	SiExpress,
+	SiMongodb,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaWordpress } from "react-icons/fa";
 import { BsDatabaseFillGear } from "react-icons/bs";
+import { GiGears } from "react-icons/gi";
+import { IoLogoFigma } from "react-icons/io5";
 
 import JavascriptPage from "../components/layouts/skills-pages/javascriptPage/JavascriptPage";
 import NextPage from "../components/layouts/skills-pages/nextPage/NextPage";
@@ -20,6 +23,10 @@ import ApiConsumePage from "../components/layouts/skills-pages/apiConsumePage/Ap
 import NodePage from "../components/layouts/skills-pages/nodePage/NodePage";
 import ExpressPage from "../components/layouts/skills-pages/expressPage/ExpressPage";
 import MongoosePage from "../components/layouts/skills-pages/mongoosePage/MongoosePage";
+import MongodbPage from "../components/layouts/skills-pages/mongodbPage/MongodbPage";
+import ApirestPage from "../components/layouts/skills-pages/apirestPage/ApirestPage";
+import FigmaPage from "../components/layouts/skills-pages/figmaPage/FigmaPage";
+import WordpressPage from "../components/layouts/skills-pages/wordpressPage/WordpressPage";
 
 const SKILLS = [
 	{
@@ -73,7 +80,7 @@ const SKILLS = [
 		data: {
 			logo: <SiNuxtdotjs size='2rem' />,
 			title: "React.Js",
-			percentege: 80,
+			percentege: 50,
 			languagePage: <NuxtPage />,
 		},
 	},
@@ -144,10 +151,10 @@ const SKILLS = [
 		classTheme: "mongodb-theme",
 		colorPointer: "#01380125",
 		data: {
-			logo: <FaReact size='2rem' />,
-			title: "React.Js",
+			logo: <SiMongodb size='2rem' />,
+			title: "MongoDB",
 			percentege: 80,
-			languagePage: <ReactPage />,
+			languagePage: <MongodbPage />,
 		},
 	},
 	{
@@ -155,10 +162,10 @@ const SKILLS = [
 		classTheme: "api-rest-theme",
 		colorPointer: "#00000000",
 		data: {
-			logo: <FaReact size='2rem' />,
-			title: "React.Js",
-			percentege: 80,
-			languagePage: <ReactPage />,
+			logo: <GiGears size='2rem' />,
+			title: "API REST",
+			percentege: 70,
+			languagePage: <ApirestPage />,
 		},
 	},
 	{
@@ -166,10 +173,10 @@ const SKILLS = [
 		classTheme: "figma-theme",
 		colorPointer: "#dfdfdf",
 		data: {
-			logo: <FaReact size='2rem' />,
-			title: "React.Js",
-			percentege: 80,
-			languagePage: <ReactPage />,
+			logo: <IoLogoFigma size='2rem' />,
+			title: "Figma",
+			percentege: 50,
+			languagePage: <FigmaPage />,
 		},
 	},
 	{
@@ -177,10 +184,10 @@ const SKILLS = [
 		classTheme: "wordpress-theme",
 		colorPointer: "#e0f7ff",
 		data: {
-			logo: <FaReact size='2rem' />,
-			title: "React.Js",
-			percentege: 80,
-			languagePage: <ReactPage />,
+			logo: <FaWordpress size='2rem' />,
+			title: "Wordpress",
+			percentege: 50,
+			languagePage: <WordpressPage />,
 		},
 	},
 ];

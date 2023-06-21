@@ -38,7 +38,7 @@
 	--principal: #ff7423;
 	--secondary: #10182f;
 	--letter: #6f88c0;
-	--white: #e2e8f0;
+	--white: #c4d0ec;
 
 	/* colors of boxes */
 	--button-background: #c457320e;
@@ -441,7 +441,7 @@
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 12rem;
+	--botton: 8rem;
 	--left: 2rem;
 
 	/* Colors */
@@ -494,7 +494,9 @@
 	/* colors of boxes */
 	--button-background: #fdfdfd;
 	--hr-color: #ff7362;
-	--info-item-color: #02d084;
+	--info-item-color: #bee0d4;
+	/* --info-item-color: #02d084; */
+	--info-item-color-solid: #bee0d4;
 
 	/* pointer */
 	/** --pointer-gradient: #1d4ed826; */
@@ -611,7 +613,7 @@
 	/* Colors */
 	--principal: #00769c;
 	--secondary: #fdfdfd;
-	--letter: #2c3338;
+	--letter: #4a555e;
 	--white: #101517;
 
 	/* colors of boxes */

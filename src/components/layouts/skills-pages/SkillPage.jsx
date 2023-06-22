@@ -1,10 +1,12 @@
 import "../../../styles/base/base.css";
 import "./SkillPage.css";
 import AppContext from "../../../context/AppContext";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 function SkillPage() {
 	const { infoShowed } = useContext(AppContext);
+
+	useEffect(() => {}, [infoShowed]);
 
 	return (
 		<div className='infoSkill'>

@@ -1,21 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap"); */
 
 :root {
-	--font-principal: "Be Vietnam Pro", sans-serif;
-	--font-wordpress: "Marcellus", serif;
+	/* --font-principal: "Be Vietnam Pro", sans-serif; */
+	--font-principal: "Kanit", sans-serif;
+	/* --font-wordpress: "Marcellus", serif; */
 	font-family: var(--font-principal);
+	/* font-size: large; */
 	color-scheme: light dark;
 	color: var(--letter);
 	background-color: var(--secondary);
@@ -60,10 +62,10 @@
 
 /*? ========================JAVASCRIPT THEME============================== */
 :root.javascript-theme {
-	font-family: "Azeret Mono", monospace;
+	/* font-family: "Azeret Mono", monospace; */
 	/* size */
-	--width: 400px;
-	--height: 400px;
+	--width: 350px;
+	--height: 350px;
 
 	/* Colors */
 	--principal: #e76e0a;
@@ -79,7 +81,7 @@
 	--button-background: #ffffff;
 	--hr-color: #e9d66a;
 	--info-item-color: #ffffff54;
-	--info-item-color-solid: #fffffff5;
+	--info-item-color-solid: #eed741;
 
 	/* pointer */
 	/** --pointer-gradient: #1d4ed826; */
@@ -95,8 +97,7 @@
 
 /*? ========================NEXT THEME============================== */
 :root.next-theme {
-	font-family: "Roboto", sans-serif;
-	letter-spacing: normal;
+	/* font-family: "Roboto", sans-serif; */
 
 	/* size */
 	--width: 500px;
@@ -178,7 +179,7 @@
 
 /*? ========================VUE THEME============================== */
 :root.vue-theme {
-	font-family: "Public Sans", sans-serif;
+	/* font-family: "Public Sans", sans-serif; */
 
 	/* size */
 	--width: 500px;
@@ -220,8 +221,8 @@
 
 /*? ========================NUXT THEME============================== */
 :root.nuxt-theme {
-	font-family: "Roboto", sans-serif;
-	letter-spacing: 1.5px;
+	/* font-family: "Roboto", sans-serif; */
+	/* letter-spacing: 1.5px; */
 
 	/* size */
 	--width: 500px;
@@ -263,7 +264,7 @@
 
 /*? ========================TAILWIND THEME============================== */
 :root.tailwind-theme {
-	font-family: "Mulish", sans-serif;
+	/* font-family: "Mulish", sans-serif; */
 
 	/* size */
 	--width: 500px;
@@ -305,8 +306,8 @@
 
 /*? ========================NODE THEME============================== */
 :root.node-theme {
-	font-family: "Quattrocento Sans", sans-serif;
-	font-size: 1.1rem;
+	/* font-family: "Quattrocento Sans", sans-serif; */
+	/* font-size: 1.1rem; */
 
 	/* size */
 	--width: 350px;
@@ -347,7 +348,7 @@
 
 /*? ========================EXPRESS THEME============================== */
 :root.express-theme {
-	font-family: "Zen Kaku Gothic New", sans-serif;
+	/* font-family: "Zen Kaku Gothic New", sans-serif; */
 
 	/* size */
 	--width: 400px;
@@ -388,7 +389,7 @@
 
 /*? ========================MONGOOSE THEME============================== */
 :root.mongoose-theme {
-	font-family: "Poppins", sans-serif;
+	/* font-family: "Poppins", sans-serif; */
 
 	/* size */
 	--width: 400px;
@@ -430,7 +431,6 @@
 /*? ========================MONGODB THEME============================== */
 :root.mongodb-theme {
 	font-family: "Lusitana", serif;
-	font-size: large;
 
 	/* size */
 	--width: 400px;
@@ -471,7 +471,7 @@
 
 /*? ========================FIGMA THEME============================== */
 :root.figma-theme {
-	font-family: "Kanit", sans-serif;
+	/* font-family: "Kanit", sans-serif; */
 
 	/* size */
 	--width: 240px;
@@ -553,8 +553,8 @@
 
 /*? ========================API REST THEME============================== */
 :root.api-rest-theme {
-	font-family: monospace;
-	font-size: large;
+	/* font-family: monospace; */
+	/* font-size: large; */
 
 	/* size */
 	--width: 600px;
@@ -596,7 +596,7 @@
 
 /*? ========================WORDPRESS THEME============================== */
 :root.wordpress-theme {
-	font-family: var(--font-wordpress);
+	/* font-family: var(--font-wordpress); */
 
 	/* size */
 	--width: 400px;

@@ -8,8 +8,10 @@ import DetailPage from "./detailsPage/DetailsPage";
 
 function GeneralSection() {
 	const { setColorGradient, page, setPage } = useContext(AppContext);
+	const a = document.querySelector("#general-details");
 
 	const setTheme = () => {
+		a.classList.toggle("efect-general-details");
 		document.documentElement.className = "griger-theme";
 		setColorGradient("#1d4ed826");
 		setPage(DetailPage);

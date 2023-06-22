@@ -1,3 +1,22 @@
+.efect-general-details {
+	animation-duration: 0.5s;
+	animation-name: animBox;
+	animation-iteration-count: initial;
+}
+
 .general-details {
-	animation-name: in-out;
+	animation-duration: 0.5s;
+	animation-name: animBox;
+	animation-iteration-count: initial;
+}
+
+@keyframes animBox {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }

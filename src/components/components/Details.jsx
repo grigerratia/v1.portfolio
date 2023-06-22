@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import "../../styles/styles-components/Details.css";
 
-function Details({ children }) {
-	return <div className='general-details'>{children}</div>;
-}
+export default function Details({ children }) {
+	useEffect(() => {
+		const elementDom = document.querySelector("#general-details");
 
-export default Details;
+		setTimeout(() => {
+			elementDom.classList.toggle("efect-general-details");
+		}, 2000);
+
+		elementDom.classList.toggle("efect-general-details");
+	}, []);
+
+	return <div id='general-details'>{children}</div>;
+}

@@ -1,16 +1,35 @@
-import { useEffect } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import "../../styles/styles-components/Details.css";
+import AppContext from "../../context/AppContext";
 
 export default function Details({ children }) {
+	const [animate, setAnimate] = useState(false);
+	const elementRef = useRef(null);
+	const { page, infoShowed } = useContext(AppContext);
+
 	useEffect(() => {
-		const elementDom = document.querySelector("#general-details");
+		setAnimate(true);
 
 		setTimeout(() => {
-			elementDom.classList.toggle("efect-general-details");
-		}, 2000);
+			setAnimate(false);
+		}, 500);
+	}, [page, infoShowed]);
 
-		elementDom.classList.toggle("efect-general-details");
-	}, []);
+	useEffect(() => {
+		if (animate && elementRef.current) {
+			elementRef.current.classList.add("efect-general-details");
 
-	return <div id='general-details'>{children}</div>;
+			setTimeout(() => {
+				if (elementRef.current) {
+					elementRef.current.classList.remove("efect-general-details");
+				}
+			}, 500);
+		}
+	}, [animate]);
+
+	return (
+		<div id='general-details' ref={elementRef}>
+			{children}
+		</div>
+	);
 }

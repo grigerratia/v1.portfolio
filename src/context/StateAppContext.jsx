@@ -3,7 +3,7 @@ import AppContext from "./AppContext";
 import DetailsPage from "../components/layouts/detailsPage/DetailsPage";
 
 function StateAppContext({ children }) {
-	const [colorGradient, setColorGradient] = useState("#1d4ed826");
+	const [colorGradient, setColorGradient] = useState("#032731");
 	const [page, setPage] = useState(DetailsPage);
 	const [infoShowed, setInfoShowed] = useState({});
 

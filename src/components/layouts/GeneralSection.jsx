@@ -13,7 +13,7 @@ function GeneralSection() {
 	const setTheme = () => {
 		a.classList.toggle("efect-general-details");
 		document.documentElement.className = "griger-theme";
-		setColorGradient("#1d4ed826");
+		setColorGradient("#032731");
 		setPage(DetailPage);
 	};
 

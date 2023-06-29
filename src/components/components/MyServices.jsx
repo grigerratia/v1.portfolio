@@ -8,7 +8,7 @@ export default function MyServices() {
 				Si quieres contratar mis servicios, envíame un Email sobre lo que
 				necesitas a
 				<a href='mailto:grigerratia@gmail.com'>
-					<strong> esta dirección</strong>
+					<strong> 👉 esta dirección </strong>
 				</a>
 				.
 			</p>

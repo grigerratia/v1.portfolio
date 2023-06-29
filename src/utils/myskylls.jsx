@@ -76,11 +76,11 @@ const SKILLS = [
 	{
 		name: "Nuxt.js",
 		classTheme: "nuxt-theme",
-		colorPointer: "#032731",
+		colorPointer: "#03273125",
 		data: {
 			logo: <SiNuxtdotjs size='2rem' />,
-			title: "React.Js",
-			percentege: 50,
+			title: "Nuxt.js",
+			percentege: 60,
 			languagePage: <NuxtPage />,
 		},
 	},

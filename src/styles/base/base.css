@@ -32,25 +32,23 @@
 /*? ========================ROOT THEME============================== */
 :root,
 :root.griger-theme {
-	/* size */
-	--width: 800px;
-	--height: 800px;
-
+	/* font-family: "Roboto", sans-serif; */
+	/* letter-spacing: 1.5px; */
 	/* Colors */
-	--principal: #ff7423;
-	--secondary: #10182f;
-	--letter: #6f88c0;
-	--white: #c4d0ec;
+	--principal: #4de7a8;
+	--secondary: #001e26;
+	--letter: #a7c1c2;
+	--white: #fff;
 
 	/* colors of boxes */
-	--button-background: #c457320e;
-	--button-shadow: #ff68179a;
-	--hr-color: #08276d4f;
-	--info-item-color: #f19e6d1f;
+	--button-background: #003543;
+	--button-shadow: #f0da4f8a;
+	--hr-color: #4de7a8;
+	--info-item-color: #0035439f;
 
 	/* pointer */
 	/** --pointer-gradient: #1d4ed826; */
-	--pointer-gradient: #1d4ed800;
+	--pointer-gradient: #0035437e;
 
 	/* image */
 	--big-logo: url("");
@@ -58,6 +56,46 @@
 	/* keyframes */
 	--keyframe-from: rotateY(0deg);
 	--keyframe-to: rotateY(360deg);
+}
+
+/*? ========================NUXT THEME============================== */
+:root.nuxt-theme {
+	/* size */
+	--width: 300px;
+	--height: 300px;
+
+	/* borders */
+	--background-logo-img: #fffff00;
+	--border-logo-img: 0%;
+
+	/* position */
+	--botton: 6rem;
+	--left: 6rem;
+
+	/* Colors */
+	--principal: #098466;
+	--secondary: #ffffff;
+	--letter: #6e7f83;
+	--white: #001e26;
+
+	/* colors of boxes */
+	--button-background: #eefdf90e;
+	--button-shadow: #f1fff89a;
+	--hr-color: #c6e6c84f;
+	--info-item-color: #8aaa961f;
+	--info-item-color-solid: #0681a333;
+
+	/* pointer */
+	/** --pointer-gradient: #1d4ed826; */
+	--pointer-gradient: #032731;
+
+	/* image */
+	--big-logo: url("https://nuxt.com/assets/design-kit/logo/icon-green.png");
+
+	/* keyframes */
+	--keyframe-from: translateY(0rem);
+	--keyframe-midle: translateY(4rem);
+	--keyframe-to: translateY(0rem);
 }
 
 /*? ========================JAVASCRIPT THEME============================== */
@@ -75,7 +113,7 @@
 
 	/* position */
 	--botton: 5rem;
-	--left: -5rem;
+	--left: 2.5rem;
 
 	/* colors of boxes */
 	--button-background: #ffffff;
@@ -91,7 +129,7 @@
 	--big-logo: url("https://thumbs2.imgbox.com/a9/5b/19DISaYV_t.png");
 
 	/* keyframes */
-	--keyframe-from: rotateY(0deg);
+	--keyframe-from: rotateX(0deg);
 	--keyframe-to: rotateY(0deg);
 }
 
@@ -100,16 +138,16 @@
 	/* font-family: "Roboto", sans-serif; */
 
 	/* size */
-	--width: 500px;
-	--height: 500px;
+	--width: 300px;
+	--height: 300px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: -4rem;
-	--left: 0px;
+	--botton: -2rem;
+	--left: 6rem;
 
 	/* Colors */
 	--principal: #3290fc;
@@ -137,8 +175,6 @@
 
 /*? ========================REACT THEME============================== */
 :root.react-theme {
-	font-family: "Kanit", sans-serif;
-
 	/* size */
 	--width: 800px;
 	--height: 800px;
@@ -148,7 +184,7 @@
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 0rem;
+	--botton: -400px;
 	--left: -400px;
 
 	/* Colors */
@@ -182,16 +218,16 @@
 	/* font-family: "Public Sans", sans-serif; */
 
 	/* size */
-	--width: 500px;
-	--height: 500px;
+	--width: 300px;
+	--height: 300px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4rem;
-	--left: 0px;
+	--botton: 0rem;
+	--left: 6rem;
 
 	/* Colors */
 	--principal: #41b782;
@@ -215,50 +251,7 @@
 
 	/* keyframes */
 	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(8rem);
-	--keyframe-to: translateY(0rem);
-}
-
-/*? ========================NUXT THEME============================== */
-:root.nuxt-theme {
-	/* font-family: "Roboto", sans-serif; */
-	/* letter-spacing: 1.5px; */
-
-	/* size */
-	--width: 500px;
-	--height: 500px;
-
-	/* borders */
-	--background-logo-img: #fffff00;
-	--border-logo-img: 0%;
-
-	/* position */
-	--botton: 4rem;
-	--left: 0px;
-
-	/* Colors */
-	--principal: #4de7a8;
-	--secondary: #001e26;
-	--letter: #a7c1c2;
-	--white: #fff;
-
-	/* colors of boxes */
-	--button-background: #003543;
-	--button-shadow: #f0da4f8a;
-	--hr-color: #4de7a8;
-	--info-item-color: #0035439f;
-	--info-item-color-solid: #003543;
-
-	/* pointer */
-	/** --pointer-gradient: #1d4ed826; */
-	--pointer-gradient: #1d4ed800;
-
-	/* image */
-	--big-logo: url("https://nuxt.com/assets/design-kit/logo/icon-green.png");
-
-	/* keyframes */
-	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(8rem);
+	--keyframe-midle: translateY(4rem);
 	--keyframe-to: translateY(0rem);
 }
 
@@ -267,16 +260,16 @@
 	/* font-family: "Mulish", sans-serif; */
 
 	/* size */
-	--width: 500px;
-	--height: 500px;
+	--width: 250px;
+	--height: 250px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4rem;
-	--left: 0px;
+	--botton: 6rem;
+	--left: 8rem;
 
 	/* Colors */
 	--principal: #38bdf8;
@@ -300,7 +293,7 @@
 
 	/* keyframes */
 	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(8rem);
+	--keyframe-midle: translateY(4rem);
 	--keyframe-to: translateY(0rem);
 }
 
@@ -310,16 +303,16 @@
 	/* font-size: 1.1rem; */
 
 	/* size */
-	--width: 350px;
-	--height: 400px;
+	--width: 150px;
+	--height: 171px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4.2rem;
-	--left: 0px;
+	--botton: 6rem;
+	--left: 10rem;
 
 	/* Colors */
 	--principal: #84ba64;
@@ -351,16 +344,16 @@
 	/* font-family: "Zen Kaku Gothic New", sans-serif; */
 
 	/* size */
-	--width: 400px;
-	--height: 400px;
+	--width: 200px;
+	--height: 200px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4.2rem;
-	--left: 2rem;
+	--botton: 3rem;
+	--left: 9rem;
 
 	/* Colors */
 	--principal: #259dff;
@@ -392,16 +385,16 @@
 	/* font-family: "Poppins", sans-serif; */
 
 	/* size */
-	--width: 400px;
-	--height: 400px;
+	--width: 300px;
+	--height: 300px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4.2rem;
-	--left: 2rem;
+	--botton: 0rem;
+	--left: 4.5rem;
 
 	/* Colors */
 	--principal: #880000;
@@ -424,25 +417,25 @@
 
 	/* keyframes */
 	--keyframe-from: translateX(0rem);
-	--keyframe-midle: translateX(8rem);
+	--keyframe-midle: translateX(4rem);
 	--keyframe-to: translateX(0rem);
 }
 
 /*? ========================MONGODB THEME============================== */
 :root.mongodb-theme {
-	font-family: "Lusitana", serif;
+	/* font-family: "Lusitana", serif; */
 
 	/* size */
-	--width: 400px;
-	--height: 100px;
+	--width: 300px;
+	--height: 80px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 8rem;
-	--left: 2rem;
+	--botton: 7rem;
+	--left: 6rem;
 
 	/* Colors */
 	--principal: #13aa52;
@@ -465,7 +458,7 @@
 
 	/* keyframes */
 	--keyframe-from: translateX(0rem);
-	--keyframe-midle: translateX(0rem);
+	--keyframe-midle: translateX(2rem);
 	--keyframe-to: translateX(0rem);
 }
 
@@ -474,16 +467,16 @@
 	/* font-family: "Kanit", sans-serif; */
 
 	/* size */
-	--width: 240px;
-	--height: 360px;
+	--width: 100px;
+	--height: 150px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4rem;
-	--left: 4rem;
+	--botton: 6rem;
+	--left: 12rem;
 
 	/* Colors */
 	--principal: #0d99ff;
@@ -506,23 +499,22 @@
 	--big-logo: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png");
 
 	/* keyframes */
-	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(4rem);
-	--keyframe-to: translateY(0rem);
+	--keyframe-from: rotateY(0deg);
+	--keyframe-to: rotateY(360deg);
 }
 
 /*? ========================API CONSUME THEME============================== */
 :root.api-consume-theme {
 	/* size */
-	--width: 750px;
-	--height: 400px;
+	--width: 440px;
+	--height: 250px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 4rem;
+	--botton: 5rem;
 	--left: 4rem;
 
 	/* Colors */
@@ -557,8 +549,8 @@
 	/* font-size: large; */
 
 	/* size */
-	--width: 600px;
-	--height: 220px;
+	--width: 420px;
+	--height: 150px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
@@ -566,7 +558,7 @@
 
 	/* position */
 	--botton: 8rem;
-	--left: 8rem;
+	--left: 2rem;
 
 	/* Colors */
 	--principal: #e46116;
@@ -575,10 +567,10 @@
 	--white: #141414;
 
 	/* colors of boxes */
-	--button-background: #f5f7a0;
+	--button-background: #e7e7e7;
 	--button-shadow: #f0da4f8a;
 	--hr-color: #f7f7f7;
-	--info-item-color: #cfcd2b;
+	--info-item-color: #8d8d8d;
 	--info-item-color-solid: #f0f0f0;
 
 	/* pointer */
@@ -599,16 +591,16 @@
 	/* font-family: var(--font-wordpress); */
 
 	/* size */
-	--width: 400px;
-	--height: 400px;
+	--width: 200px;
+	--height: 200px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
 	--border-logo-img: 0%;
 
 	/* position */
-	--botton: 5rem;
-	--left: 0rem;
+	--botton: 6rem;
+	--left: 9rem;
 
 	/* Colors */
 	--principal: #00769c;

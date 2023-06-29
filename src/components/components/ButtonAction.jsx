@@ -10,12 +10,11 @@ function ButtonAction({
 	data,
 	page,
 }) {
-	const { setColorGradient, setInfoShowed, setPage } = useContext(AppContext);
+	const { setColorGradient, setPage, setInfoShowed } = useContext(AppContext);
 
 	const setLayout = () => {
 		document.documentElement.className = classTheme;
 		setColorGradient(colorPointer);
-		console.log(page);
 		setPage(page);
 		setInfoShowed(data);
 	};

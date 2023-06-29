@@ -5,8 +5,8 @@ export default function NextPage() {
 		<>
 			<p className='javascript-page-text'>
 				Next.js es una maravilla, y tengo el honor de usarlo en mis proyectos
-				más grandes y ambiciosos para garantizar la escalabilidad, el
-				enrutamiento, el rerenderizado, entre otras cosas.
+				más grandes para garantizar la escalabilidad, el enrutamiento, el
+				rerenderizado; entre otras cosas.
 			</p>
 			<p>
 				Actualmente, trabajo en mis proyectos más ambiciosos con esta poderosa

@@ -5,10 +5,10 @@ export default function WordpressPage() {
 	return (
 		<>
 			<p className='javascript-page-text'>
-				Hace abstante tiempo que dejé de ver a Wordpress como un enemigo, y
-				ahora lo considero una herramienta importantísima para el desarrollo
-				web. Colaboro en proyectos hechos con Wordpress,
-				{<Anchor anchor='https://www.uptos.edu.ve/' text='Como Estos' />}.
+				Hace bastante tiempo que dejé de ver a WordPress como un enemigo, y
+				ahora lo considero una herramienta importantísima para el desarrollo web
+				en todo el mundo. Colaboro en proyectos hechos con Wordpress,
+				{<Anchor anchor='https://academia.incluyeme.com/' text='Como Estos' />}.
 			</p>
 			<MyServices />
 		</>

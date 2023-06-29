@@ -8,7 +8,7 @@ export default function FigmaPage() {
 				Tomé un excelente curso de diseño web en
 				{<Anchor anchor='#' text='Platzi' />}, en el que aprendí a usar
 				herramientas increíbles como Notion y Figma. Aunque no me dedico al
-				diseño, puedo codificar proyectos partiendo de diseños hechos en figma,
+				diseño, puedo codificar interfaces partiendo de bocetos hechos en Figma,
 				como debe hacerse en todo proyecto.
 			</p>
 			<p>

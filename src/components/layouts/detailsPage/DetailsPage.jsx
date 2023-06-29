@@ -12,7 +12,7 @@ export default function DetailPage() {
 				NextJs.
 			</p>
 			<p>
-				✨ Construí para la empresa{" "}
+				✨ Construí, para la empresa
 				<a href='https://cesticom.com/'> Cesticom</a>, una API REST completa y
 				estable, usando NodeJs, ExpressJs y MongoDB.
 			</p>

@@ -1,6 +1,6 @@
 main .general .photo-name {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 /* main .general .photo-name:hover + hr {
@@ -8,80 +8,81 @@ main .general .photo-name {
 } */
 
 .general .photo-name .box-photoName {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .general .photo-name .box-photoName img {
-    background-color: var(--principal);
-    width: 0px;
-    height: 40px;
-    border-radius: 9999px;
-    transition: all .3s ease-in-out;
+	background-color: var(--principal);
+	width: 0px;
+	height: 40px;
+	border-radius: 9999px;
+	transition: all 0.3s ease-in-out;
 }
 
 .general .photo-name:hover > .box-photoName img {
-    width: 40px;
-    margin-right: 1rem;
+	width: 40px;
+	margin-right: 1rem;
 }
 
 .general .photo-name:hover .download_cv h2 {
-    color: var(--principal);
-    margin-left: 0;
+	color: var(--principal);
+	margin-left: 0;
 }
 
 .general {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 500px
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 500px;
 }
 
 .general .photo-name h1 {
-    margin: 0;
-    color: var(--white);
-    letter-spacing: 0.0005em;
-    word-spacing: 0.1rem;
+	margin: 0;
+	color: var(--white);
+	letter-spacing: 0.0005em;
+	word-spacing: 0.1rem;
 }
 
 .general .photo-name h2 {
-    margin: 0;
-    color: var(--white);
-    margin-left: 110px;
-    font-size: 1.34rem;
+	margin: 0;
+	color: var(--white);
+	margin-top: 0px;
+	margin-left: 100px;
+	font-size: 1.34rem;
 }
 
 .general .photo-name .download_cv {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .general .photo-name .download_cv a {
-    opacity: 0;
-    font-size: 2rem;
-    transition: all .1s !important;
+	opacity: 0;
+	font-size: 2rem;
+	transition: all 0.1s !important;
 }
 
 .general .photo-name:hover .download_cv a {
-    opacity: 1;
-    padding-left: 1rem;
+	opacity: 1;
+	padding-left: 1rem;
 }
 
 .general .photo-name .download_cv a:hover {
-    cursor: pointer;
-    color: var(--principal) !important;
+	cursor: pointer;
+	color: var(--principal) !important;
 }
 
 .general hr {
-    width: 100%;
-    border: 1px solid var(--hr-color);
-    border-radius: 999px;
+	width: 100%;
+	border: 1px solid var(--hr-color);
+	border-radius: 999px;
 }
 
 .details {
-    overflow: scroll;
+	overflow: scroll;
 }
 
 .details::-webkit-scrollbar {
-    display: none;
+	display: none;
 }

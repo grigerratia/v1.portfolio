@@ -10,6 +10,10 @@ export default function WordpressPage() {
 				en todo el mundo. Colaboro en proyectos hechos con Wordpress,
 				{<Anchor anchor='https://academia.incluyeme.com/' text='Como Estos' />}.
 			</p>
+			<p>
+				Para construir páginas web de WordPress, uso con mucha frecuencia
+				Elementor.
+			</p>
 			<MyServices />
 		</>
 	);

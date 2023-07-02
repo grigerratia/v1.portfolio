@@ -106,27 +106,27 @@
 	--height: 350px;
 
 	/* Colors */
-	--principal: #e76e0a;
-	--secondary: #f0db4f;
-	--letter: #323330;
-	--white: #323330;
+	--principal: #ffca28;
+	--secondary: #323330;
+	--letter: #f4f5e3;
+	--white: #b8b3a8;
 
 	/* position */
-	--botton: 5rem;
+	--botton: 2rem;
 	--left: 2.5rem;
 
 	/* colors of boxes */
-	--button-background: #ffffff;
+	--button-background: #302f2a;
 	--hr-color: #e9d66a;
-	--info-item-color: #ffffff54;
-	--info-item-color-solid: #eed741;
+	--info-item-color: #4b4d47;
+	--info-item-color-solid: #4b4d47;
 
 	/* pointer */
 	/** --pointer-gradient: #1d4ed826; */
 	--pointer-gradient: #1d4ed800;
 
 	/* image */
-	--big-logo: url("https://thumbs2.imgbox.com/a9/5b/19DISaYV_t.png");
+	--big-logo: url("https://stackdiary.com/wp-content/uploads/2023/03/How-to-Get-Image-Size-using-JavaScript.png");
 
 	/* keyframes */
 	--keyframe-from: rotateX(0deg);

@@ -5,8 +5,8 @@ export default function DetailPage() {
 	return (
 		<>
 			<p className='details'>
-				🧔 Soy un desarrollador web especializado en los Stacks MERN y MEVN, con
-				experiencia en la creación de páginas web con WordPress.
+				🧔 Soy desarrollador web. Me especializo en los Stacks MERN y MEVN, y
+				tengo experiencia en la creación de páginas web con WordPress.
 			</p>
 			<p>
 				🚀 Actualmente, trabajo como desarrollador de WordPress independiente.

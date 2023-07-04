@@ -5,11 +5,11 @@ export default function FigmaPage() {
 	return (
 		<>
 			<p className='javascript-page-text'>
-				Tomé un excelente curso de diseño web en
-				{<Anchor anchor='#' text='Platzi' />}, en el que aprendí a usar
-				herramientas increíbles como Notion y Figma. Aunque no me dedico al
-				diseño, puedo codificar interfaces partiendo de bocetos hechos en Figma,
-				como debe hacerse en todo proyecto.
+				Tomé un excelente curso de diseño web en{" "}
+				{<Anchor anchor='#' text='Platzi' />}, donde aprendí a usar herramientas
+				increíbles como Notion y Figma. Aunque no soy diseñador, puedo codificar
+				interfaces a partir de bocetos hechos en Figma, como se requiere en todo
+				proyecto.
 			</p>
 			<p>
 				De igual forma, puedes darle un vistazo a

@@ -1,16 +1,12 @@
-import React from "react";
+import ButtonMyServices from "./ButtonMyServices";
 
 export default function MyServices() {
 	return (
 		<>
 			<hr />
-			<p className='my-services-p'>
+			<p className='my-services--p'>
 				Si quieres contratar mis servicios, envíame un Email sobre lo que
-				necesitas a
-				<a href='mailto:grigerratia@gmail.com'>
-					<strong> 👉 esta dirección </strong>
-				</a>
-				.
+				necesitas a mi dirección de 👉 <ButtonMyServices texto='Contacto' />
 			</p>
 		</>
 	);

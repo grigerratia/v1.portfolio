@@ -3,8 +3,8 @@ import SKILLS from "../../utils/myskylls";
 import PROYECTS from "../../utils/myproyects";
 import EXPERIENCES from "../../utils/myexperiences";
 import InfoItem from "./InfoItem";
-import Mailtome from "../components/Mailtome";
 import SkillPage from "./skills-pages/SkillPage";
+import ButtonMyServices from "../components/ButtonMyServices";
 
 function InfoSection() {
 	return (
@@ -18,7 +18,12 @@ function InfoSection() {
 			<InfoItem title='Proyectos' className='anchor' elements={PROYECTS} />
 			<InfoItem title='Experiencia' className='anchor' elements={EXPERIENCES} />
 			<InfoItem title='Contacto'>
-				<Mailtome />
+				<p style={{ fontSize: "0.8rem" }}>
+					¿Necesitas ayuda con tu sitio web? Estoy aquí para ayudarte.
+					Contáctame por correo electrónico o mis redes sociales. ¡Espero saber
+					de ti pronto!
+				</p>
+				<ButtonMyServices texto='¡Salúdame!' />
 			</InfoItem>
 		</section>
 	);

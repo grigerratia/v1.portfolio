@@ -1,3 +1,95 @@
-.proyect-page {
-	background-color: blueviolet;
+@import url(../../../styles/base/base.css);
+
+:root {
+	--heightProyectCard: 16rem;
+}
+
+.boxProyectCard {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.proyectCard {
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: var(--heightProyectCard);
+	background-color: var(--secondary);
+	border-radius: 8px;
+}
+
+.proyectCard p {
+	margin: 4px 0px;
+}
+
+.proyectCard:hover img {
+	opacity: 0.1;
+}
+.proyectCard:hover ~ .h2proyect {
+	opacity: 0;
+	transform: translateY(100%);
+}
+.proyectCard:hover .infoProyectCard {
+	opacity: 1;
+	transform: translateY(0%);
+}
+.proyectCard:hover + footer {
+	opacity: 0;
+	transform: translateY(-100%);
+}
+
+.imgProyectCard {
+	background-color: black;
+	opacity: 1;
+}
+
+.imgProyectCard img {
+	position: absolute;
+	object-fit: cover;
+}
+
+.infoProyectCard {
+	z-index: 1;
+	color: var(--principal);
+	position: absolute;
+	margin: 1.5rem;
+	transform: translateY(100%);
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(var(--heightProyectCard) - 3rem);
+}
+
+.infoProyectCard-icons {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.infoProyectCard-icons a * {
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	padding: 4px;
+}
+
+.infoProyectCard-icons a *:hover {
+	transform: translateY(-4px);
+}
+
+.proyectCard-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0rem 1.5rem;
+	color: var(--principal);
+}
+
+.proyectCard-footer + * {
+	margin-left: 1rem;
+}
+
+.proyectCard-footer + h2 {
+	margin-left: 1.5rem;
 }

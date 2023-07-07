@@ -7,16 +7,20 @@ function ButtonAction({
 	elementName,
 	classTheme,
 	colorPointer,
-	data,
 	page,
+	data,
+	element,
 }) {
 	const { setColorGradient, setPage, setInfoShowed } = useContext(AppContext);
 
 	const setLayout = () => {
-		document.documentElement.className = classTheme;
-		setColorGradient(colorPointer);
-		setPage(page);
-		setInfoShowed(data);
+		element ? setInfoShowed(element) : null;
+
+		document.documentElement.className =
+			classTheme ?? document.documentElement.className;
+		className !== "anchor" ? setColorGradient(colorPointer) : null;
+		page ? setPage(page) : null;
+		data ? setInfoShowed(data) : null;
 	};
 
 	return (

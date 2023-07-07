@@ -21,7 +21,10 @@ function GeneralSection() {
 		<section className='general'>
 			<div className='photo-name'>
 				<div className='box-photoName'>
-					<img src='https://unavatar.io/twitter/grigerratia' alt='my-photo' />
+					<img
+						src='https://thumbs2.imgbox.com/a6/31/KHwiXMPz_t.jpg'
+						alt='my-photo'
+					/>
 					<h1 onClick={setTheme}>Griger Ratia</h1>
 				</div>
 				<div className='download_cv'>

@@ -2,12 +2,22 @@
 	animation-name: animBox;
 	animation-duration: 0.5s;
 	animation-iteration-count: initial;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 .general-details {
 	animation-name: animBox;
 	animation-duration: 0.5s;
 	animation-iteration-count: initial;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#general-details {
+	overflow: hidden;
+	border-radius: 8px;
+	margin-top: 1rem;
 }
 
 @keyframes animBox {

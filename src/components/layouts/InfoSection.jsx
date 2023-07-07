@@ -5,6 +5,7 @@ import EXPERIENCES from "../../utils/myexperiences";
 import InfoItem from "./InfoItem";
 import SkillPage from "./skills-pages/SkillPage";
 import ButtonMyServices from "../components/ButtonMyServices";
+import ProyectsPages from "./proyects-pages/ProyectPage";
 
 function InfoSection() {
 	return (
@@ -15,7 +16,12 @@ function InfoSection() {
 				elements={SKILLS}
 				page={<SkillPage />}
 			/>
-			<InfoItem title='Proyectos' className='anchor' elements={PROYECTS} />
+			<InfoItem
+				title='Proyectos'
+				className='anchor'
+				elements={PROYECTS}
+				page={<ProyectsPages />}
+			/>
 			<InfoItem title='Experiencia' className='anchor' elements={EXPERIENCES} />
 			<InfoItem title='Contacto'>
 				<p style={{ fontSize: "0.8rem" }}>

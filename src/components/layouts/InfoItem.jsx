@@ -19,6 +19,7 @@ function InfoItem({ children, className, title, elements, page }) {
 							colorPointer={element.colorPointer}
 							page={page}
 							data={element.data}
+							element={element}
 						/>
 					);
 				})}

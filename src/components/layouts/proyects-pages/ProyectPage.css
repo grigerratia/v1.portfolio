@@ -1,7 +1,7 @@
 @import url(../../../styles/base/base.css);
 
 :root {
-	--heightProyectCard: 16rem;
+	--heightProyectCard: 15.5rem;
 }
 
 .boxProyectCard {

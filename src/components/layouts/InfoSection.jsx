@@ -1,11 +1,12 @@
 import "../../styles/styles-layout/InfoSection.css";
+import InfoItem from "./InfoItem";
 import SKILLS from "../../utils/myskylls";
 import PROYECTS from "../../utils/myproyects";
 import EXPERIENCES from "../../utils/myexperiences";
-import InfoItem from "./InfoItem";
 import SkillPage from "./skills-pages/SkillPage";
-import ButtonMyServices from "../components/ButtonMyServices";
 import ProyectsPages from "./proyects-pages/ProyectPage";
+import ExperiencePage from "./experience-page/ExperiencePage";
+import ButtonMyServices from "../components/ButtonMyServices";
 
 function InfoSection() {
 	return (
@@ -22,7 +23,12 @@ function InfoSection() {
 				elements={PROYECTS}
 				page={<ProyectsPages />}
 			/>
-			<InfoItem title='Experiencia' className='anchor' elements={EXPERIENCES} />
+			<InfoItem
+				title='Experiencia'
+				className='anchor'
+				elements={EXPERIENCES}
+				page={<ExperiencePage />}
+			/>
 			<InfoItem title='Contacto'>
 				<p style={{ fontSize: "0.8rem" }}>
 					¿Necesitas ayuda con tu sitio web? Estoy aquí para ayudarte.

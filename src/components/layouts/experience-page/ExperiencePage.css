@@ -1,0 +1,57 @@
+@import url(../../../styles/base/base.css);
+
+:root {
+	--heightExperienceCard: 20rem;
+}
+
+.boxExperienceCard {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: var(--heightExperienceCard);
+	position: relative;
+	gap: 1rem;
+}
+.boxExperienceCard:hover .experienceCard .imgExperienceCard {
+	transform: rotateY(0deg);
+}
+
+.boxExperienceCard:hover .experienceCard .infoExperienceCard {
+	opacity: 1;
+	animation-name: efecto-opaco;
+	animation-duration: 1s;
+	position: relative;
+}
+
+@keyframes efecto-opaco {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.experienceCard {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: var(--secondary);
+	border-radius: 8px;
+	height: calc(var(--heightProyectCard) - 3rem);
+	display: flex;
+}
+
+.imgExperienceCard {
+	position: relative;
+	transform-origin: left center;
+	transform: rotateY(-90deg);
+}
+
+.infoExperienceCard {
+	padding: 1.5rem;
+	color: var(--principal);
+	text-align: justify;
+	position: absolute;
+	display: flex;
+	align-items: center;
+}

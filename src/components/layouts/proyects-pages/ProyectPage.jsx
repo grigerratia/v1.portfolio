@@ -13,10 +13,7 @@ export default function ProyectsPages() {
 		<div className='boxProyectCard'>
 			<div className='proyectCard'>
 				<div className='imgProyectCard'>
-					<img
-						src='https://www.escueladeinternet.com/wp-content/uploads/2022/05/ideas_disenoweb-800x400.png'
-						alt=''
-					/>
+					<img src={infoShowed.imgProyect} alt='' />
 				</div>
 
 				<div className='infoProyectCard'>

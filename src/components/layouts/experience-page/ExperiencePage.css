@@ -23,15 +23,6 @@
 	position: relative;
 }
 
-@keyframes efecto-opaco {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
 .experienceCard {
 	box-sizing: border-box;
 	width: 100%;
@@ -54,4 +45,15 @@
 	position: absolute;
 	display: flex;
 	align-items: center;
+	animation-name: efecto-opaco;
+	animation-duration: 1s;
+}
+
+@keyframes efecto-opaco {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

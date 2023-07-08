@@ -26,6 +26,8 @@
 
 .proyectCard:hover img {
 	opacity: 0.1;
+	width: calc(100% + 10%);
+	filter: blur(5px) grayscale(100%);
 }
 .proyectCard:hover ~ .h2proyect {
 	opacity: 0;
@@ -47,7 +49,19 @@
 
 .imgProyectCard img {
 	position: absolute;
-	object-fit: cover;
+	width: 100%;
+	animation-name: desenfoque;
+	animation-duration: 2s;
+}
+
+@keyframes desenfoque {
+	from {
+	}
+	70% {
+	}
+	to {
+		filter: blur(0px) grayscale(0%);
+	}
 }
 
 .infoProyectCard {

@@ -13,40 +13,49 @@
 	gap: 1rem;
 }
 .boxExperienceCard:hover .experienceCard .imgExperienceCard {
-	transform: rotateY(0deg);
+	/* transform: rotateY(0deg); */
+}
+
+.boxExperienceCard h2 {
+	color: var(--principal);
 }
 
 .boxExperienceCard:hover .experienceCard .infoExperienceCard {
-	opacity: 1;
+	/* opacity: 1;
 	animation-name: efecto-opaco;
 	animation-duration: 1s;
 	position: relative;
+	width: fit-content; */
+	/* clip-path: inset(0% 20% 0% 20%); */
 }
 
 .experienceCard {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
+	display: flex;
+	position: relative;
 	width: 100%;
 	background-color: var(--secondary);
 	border-radius: 8px;
 	height: calc(var(--heightProyectCard) - 3rem);
-	display: flex;
 }
 
 .imgExperienceCard {
-	position: relative;
-	transform-origin: left center;
-	transform: rotateY(-90deg);
+	width: auto;
+	/* transform-origin: left center;
+	transform: rotateY(-90deg); */
 }
 
-.infoExperienceCard {
+/* .infoExperienceCard {
+	height: calc(var(--heightProyectCard) - 3rem);
 	padding: 1.5rem;
-	color: var(--principal);
+	color: var(--letter);
+} */
+.infoExperienceCard {
+	flex: 1;
+	padding: 1.5rem;
 	text-align: justify;
-	position: absolute;
 	display: flex;
 	align-items: center;
-	animation-name: efecto-opaco;
-	animation-duration: 1s;
 }
 
 @keyframes efecto-opaco {

@@ -27,8 +27,9 @@ const EXPERIENCES = [
 		name: "Experiencia personal",
 		imgExperience: "https://thumbs2.imgbox.com/e8/3e/IVhzlmkr_t.jpg",
 		texto: [
-			`Toda mi trayectoria de aprendisaje, práctica, organización, disciplina, prueba y error, cada oproyecto terminado y objetivo logrado, son la mayor experiencia y prueba de mis capacidades. `,
-			<Anchor text='Míralo aquí.' anchor='https://github.com/grigerlord/' />,
+			`Toda mi trayectoria de aprendizaje y las lecciones extraídas de cada proyecto terminado, son la mejor evidencia de mis capacidades. Todos `,
+			<Anchor text='estos logros' anchor='https://github.com/grigerlord/' />,
+			` capturan con precisión mi experiencia y compromiso. `,
 		],
 	},
 ];

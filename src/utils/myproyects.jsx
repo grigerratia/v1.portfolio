@@ -7,7 +7,7 @@ const PROYECTS = [
 		imgProyect: "https://thumbs2.imgbox.com/7d/5d/RBT7xmnI_t.png",
 		years: "2020 . 2021",
 		texto:
-			"Este proyecto está hecho en React. Fue un reto el manejo del estado y la creación de componentes, pero ya es un desafío superado exitoamente.",
+			"Crear este proyecto en React representó varios retos interesantes. Manejar el estado y crear componentes eficientes ha sido una curva empinada de aprendizaje, pero que ya he logrado superar.",
 	},
 	{
 		name: "Tic Tac Toe",

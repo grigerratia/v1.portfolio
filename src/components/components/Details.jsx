@@ -1,3 +1,9 @@
+import PropTypes from "prop-types";
+
+Details.propTypes = {
+	children: PropTypes.node.isRequired,
+};
+
 import { useContext, useEffect, useRef, useState } from "react";
 import "../../styles/styles-components/Details.css";
 import AppContext from "../../context/AppContext";

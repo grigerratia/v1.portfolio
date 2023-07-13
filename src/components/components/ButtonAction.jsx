@@ -1,6 +1,18 @@
+import PropTypes from "prop-types";
+
 import { useContext } from "react";
 import "../../styles/styles-components/ButtonAction.css";
 import AppContext from "../../context/AppContext";
+
+ButtonAction.propTypes = {
+	className: PropTypes.string,
+	elementName: PropTypes.string,
+	classTheme: PropTypes.string,
+	colorPointer: PropTypes.string,
+	page: PropTypes.string,
+	data: PropTypes.any,
+	element: PropTypes.element,
+};
 
 function ButtonAction({
 	className,

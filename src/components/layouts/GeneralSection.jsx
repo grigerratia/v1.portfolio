@@ -31,7 +31,8 @@ function GeneralSection() {
 					<h2>Desarrollador Web</h2>
 					<a
 						href='http://127.0.0.1:5173/src/assets/Curriculum-Griger-06-23.pdf'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						<MdCloudDownload />
 					</a>
 				</div>

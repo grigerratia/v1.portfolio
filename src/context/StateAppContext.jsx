@@ -1,3 +1,9 @@
+import PropTypes from "prop-types";
+
+StateAppContext.propTypes = {
+	children: PropTypes.node.isRequired,
+};
+
 import { useState } from "react";
 import AppContext from "./AppContext";
 import DetailsPage from "../components/layouts/detailsPage/DetailsPage";

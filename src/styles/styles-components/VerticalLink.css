@@ -1,26 +1,26 @@
-@import '../base/base.css';
+@import "../base/base.css";
 
 .vertical-link {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    writing-mode: vertical-rl;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .8rem;
-    padding: 1rem 8rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	writing-mode: vertical-rl;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8rem;
+	padding: 1rem 4rem;
 }
 
 .vertical-link a {
-    padding: 1rem;
+	padding: 1rem;
 }
 
 .vertical-link a:hover {
-    color: var(--principal);
-    transform: translateY(-4px);
+	color: var(--principal);
+	transform: translateY(-4px);
 }
 
 .vertical-link hr {
-    height: 200px;
+	height: 200px;
 }

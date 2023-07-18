@@ -9,9 +9,9 @@ ButtonAction.propTypes = {
 	elementName: PropTypes.string,
 	classTheme: PropTypes.string,
 	colorPointer: PropTypes.string,
-	page: PropTypes.string,
+	page: PropTypes.object,
 	data: PropTypes.any,
-	element: PropTypes.element,
+	element: PropTypes.object,
 };
 
 function ButtonAction({

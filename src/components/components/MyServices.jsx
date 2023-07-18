@@ -6,7 +6,7 @@ export default function MyServices() {
 			<hr />
 			<p className='my-services--p'>
 				Si quieres contratar mis servicios, envíame un Email sobre lo que
-				necesitas a mi dirección de 👉 <ButtonMyServices texto='Contacto' />
+				necesitas a mi dirección de <ButtonMyServices texto='Contacto' />
 			</p>
 		</>
 	);

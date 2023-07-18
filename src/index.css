@@ -1,29 +1,25 @@
-@import url('./styles/base/base.css');
+@import url("./styles/base/base.css");
 
 * {
-  transition: all .2s ease-in-out;
-  overflow: hidden;
-  margin: 0;
+	transition: all 0.2s ease-in-out;
+	/* overflow: hidden; */
+	margin: 0;
 }
 
 p {
-  line-height: 1.5rem;
-  letter-spacing: 0.0005em;
+	line-height: 1.5rem;
+	letter-spacing: 0.0005em;
 }
 
 a {
-  font-weight: 500;
-  color: var(--white);
-  text-decoration: inherit;
+	font-weight: 500;
+	color: var(--white);
+	text-decoration: inherit;
 }
 a:hover {
-  color: var(--principal);
-}
-
-body {
-  margin: 0;
+	color: var(--principal);
 }
 
 h1 {
-  font-size: 3.2em;
+	font-size: 3.2em;
 }

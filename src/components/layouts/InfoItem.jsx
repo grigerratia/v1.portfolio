@@ -1,26 +1,25 @@
 import PropTypes from "prop-types";
 
 InfoItem.propTypes = {
-	children: PropTypes.node.isRequired,
+	children: PropTypes.node,
 	className: PropTypes.string,
-	title: PropTypes.string.isRequired,
-	elements: PropTypes.array.isRequired,
-	page: PropTypes.string,
+	title: PropTypes.string,
+	elements: PropTypes.array,
+	page: PropTypes.object,
 };
 
 import "../../styles/styles-layout/InfoItem.css";
 import InfoTitle from "../components/InfoTitle";
 import ButtonAction from "../components/ButtonAction";
 
-function InfoItem({ children, className, title, elements, page }) {
+function InfoItem({ children = null, className, title, elements, page }) {
 	return (
 		<div className='info-item'>
 			<InfoTitle title={title} />
 
 			<div className='info-elements'>
-				{children}
+				{children ?? children}
 				{elements?.map((element) => {
-					console.log(element.key);
 					return (
 						<ButtonAction
 							key={element.key}

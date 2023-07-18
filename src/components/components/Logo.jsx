@@ -15,7 +15,7 @@ function Logo() {
 
 	const setNotice = () => {
 		setTimeout(() => {
-			setMessage(THANKS[Math.floor(Math.random() * (9 - 0))]);
+			setMessage(THANKS[Math.floor(Math.random() * (THANKS.length - 0))]);
 			setANew("new-news");
 		}, 10000);
 	};

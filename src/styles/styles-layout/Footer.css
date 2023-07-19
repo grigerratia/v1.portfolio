@@ -3,14 +3,12 @@
 .footer {
 	font-size: 0.8rem;
 	color: var(--white);
-	position: absolute;
+	position: fixed;
 	bottom: 2rem;
-}
-
-.mailtome a {
-	border: solid 1px var(--principal);
-	border-radius: 16px;
-	padding: 4px 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
 }
 
 .mailtome a:hover {

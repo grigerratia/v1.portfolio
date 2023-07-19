@@ -12,7 +12,8 @@ export default function NodePage() {
 			</p>
 			<p>
 				Puedes revisar {<Anchor anchor='#' text='Este Proyecto' />} y comprobar
-				el nivel profesinal que se debe tener para levantar un servidor estable.
+				el nivel profesional que se debe tener para levantar un servidor
+				estable.
 			</p>
 			<MyServices />
 		</>

@@ -278,7 +278,7 @@ function InfoSection() {
 				"https://www.seoptimer.com/es/blog/wp-content/uploads/2014/10/Apps-tiempo.png",
 			years: "2023 . 2021",
 			texto:
-				"Este proyecto es un buen ejemplo para mostrar mis habilidades para consumir APIs con eficiencia. También notarás la agradable presentaición de front.",
+				"Este proyecto es un buen ejemplo para mostrar mis habilidades para consumir APIs con eficiencia. También notarás la agradable presentación de front.",
 		},
 		{
 			name: "Healthy",
@@ -298,7 +298,7 @@ function InfoSection() {
 				"https://d1ih8jugeo2m5m.cloudfront.net/2022/04/tipos-de-paginas-web-1200x685.jpg",
 			years: "2023 . 2021",
 			texto: [
-				`Condostart es un proyecto en el que trabajé miestras desarrollaba para `,
+				`Condostart es un proyecto en el que trabajé mientras desarrollaba para `,
 				<Anchor
 					key='Anchor-1'
 					text='Cesticom'
@@ -365,22 +365,22 @@ function InfoSection() {
 	return (
 		<section className='info'>
 			<InfoItem
-				title='Skills'
-				className='action'
-				elements={SKILLS}
-				page={<SkillPage />}
-			/>
-			<InfoItem
 				title='Proyectos'
-				className='anchor'
+				className='btnProyects'
 				elements={PROYECTS}
 				page={<ProyectsPages />}
 			/>
 			<InfoItem
 				title='Experiencia'
-				className='anchor'
+				className='btnExperiences'
 				elements={EXPERIENCES}
 				page={<ExperiencePage />}
+			/>
+			<InfoItem
+				title='Skills'
+				className='btnSkills'
+				elements={SKILLS}
+				page={<SkillPage />}
 			/>
 			<InfoItem title='Contacto'>
 				<p style={{ fontSize: "0.8rem" }}>

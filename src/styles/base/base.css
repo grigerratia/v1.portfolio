@@ -50,52 +50,12 @@
 	--keyframe-to: rotateY(360deg);
 }
 
-/*? ========================NUXT THEME============================== */
-:root.nuxt-theme {
-	/* size */
-	--width: 300px;
-	--height: 300px;
-
-	/* borders */
-	--background-logo-img: #fffff00;
-	--border-logo-img: 0%;
-
-	/* position */
-	--botton: 6rem;
-	--left: 6rem;
-
-	/* Colors */
-	--principal: #098466;
-	--secondary: #ffffff;
-	--letter: #6e7f83;
-	--white: #001e26;
-
-	/* colors of boxes */
-	--button-background: #eefdf90e;
-	--button-shadow: #f1fff89a;
-	--hr-color: #c6e6c84f;
-	--info-item-color: #8aaa961f;
-	--info-item-color-solid: #0681a333;
-
-	/* pointer */
-	/** --pointer-gradient: #1d4ed826; */
-	--pointer-gradient: #032731;
-
-	/* image */
-	--big-logo: url("https://nuxt.com/assets/design-kit/logo/icon-green.png");
-
-	/* keyframes */
-	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(4rem);
-	--keyframe-to: translateY(0rem);
-}
-
 /*? ========================JAVASCRIPT THEME============================== */
 :root.javascript-theme {
 	/* font-family: "Azeret Mono", monospace; */
 	/* size */
-	--width: 350px;
-	--height: 350px;
+	--width: 50rem;
+	--height: 50rem;
 
 	/* Colors */
 	--principal: #ffca28;
@@ -104,8 +64,8 @@
 	--white: #b8b3a8;
 
 	/* position */
-	--botton: 2rem;
-	--left: 2.5rem;
+	--botton: 0rem;
+	--left: 0rem;
 
 	/* colors of boxes */
 	--button-background: #302f2a;
@@ -247,13 +207,11 @@
 	--keyframe-to: translateY(0rem);
 }
 
-/*? ========================TAILWIND THEME============================== */
-:root.tailwind-theme {
-	/* font-family: "Mulish", sans-serif; */
-
+/*? ========================NUXT THEME============================== */
+:root.nuxt-theme {
 	/* size */
-	--width: 250px;
-	--height: 250px;
+	--width: 300px;
+	--height: 300px;
 
 	/* borders */
 	--background-logo-img: #fffff00;
@@ -261,7 +219,49 @@
 
 	/* position */
 	--botton: 6rem;
-	--left: 8rem;
+	--left: 6rem;
+
+	/* Colors */
+	--principal: #098466;
+	--secondary: #ffffff;
+	--letter: #6e7f83;
+	--white: #001e26;
+
+	/* colors of boxes */
+	--button-background: #eefdf90e;
+	--button-shadow: #f1fff89a;
+	--hr-color: #c6e6c84f;
+	--info-item-color: #8aaa961f;
+	--info-item-color-solid: #0681a333;
+
+	/* pointer */
+	/** --pointer-gradient: #1d4ed826; */
+	--pointer-gradient: #032731;
+
+	/* image */
+	--big-logo: url("https://nuxt.com/assets/design-kit/logo/icon-green.png");
+
+	/* keyframes */
+	--keyframe-from: translateY(0rem);
+	--keyframe-midle: translateY(4rem);
+	--keyframe-to: translateY(0rem);
+}
+
+/*? ========================TAILWIND THEME============================== */
+:root.tailwind-theme {
+	/* font-family: "Mulish", sans-serif; */
+
+	/* size */
+	--width: 8rem;
+	--height: 5rem;
+
+	/* borders */
+	--background-logo-img: #fffff00;
+	--border-logo-img: 0%;
+
+	/* position */
+	--botton: 0rem;
+	--left: 0rem;
 
 	/* Colors */
 	--principal: #38bdf8;
@@ -285,7 +285,7 @@
 
 	/* keyframes */
 	--keyframe-from: translateY(0rem);
-	--keyframe-midle: translateY(4rem);
+	--keyframe-midle: translateY(0rem);
 	--keyframe-to: translateY(0rem);
 }
 

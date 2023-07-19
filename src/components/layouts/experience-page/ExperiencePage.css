@@ -11,6 +11,7 @@
 	height: var(--heightExperienceCard);
 	position: relative;
 	gap: 1rem;
+	overflow: hidden;
 }
 
 .boxExperienceCard h2 {
@@ -29,6 +30,8 @@
 
 .imgExperienceCard {
 	width: auto;
+	overflow: hidden;
+	border-radius: 8px 0 0 8px;
 }
 
 .infoExperienceCard {

@@ -1,6 +1,10 @@
-import { SiTwitter } from "react-icons/si";
-import { FaInstagramSquare, FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsFacebook } from "react-icons/bs";
+import {
+	FaInstagramSquare,
+	FaLinkedin,
+	FaGithubSquare,
+	FaTwitterSquare,
+} from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 import "../../styles/styles-layout/SocialIcons.css";
 
@@ -9,7 +13,7 @@ function SocialICons() {
 		{
 			name: "twitter",
 			className: "twitter-icon social-icon",
-			icon: <SiTwitter />,
+			icon: <FaTwitterSquare />,
 			href: "https://twitter.com/grigerratia",
 		},
 		{
@@ -21,7 +25,7 @@ function SocialICons() {
 		{
 			name: "facebook",
 			className: "facebook-icon social-icon",
-			icon: <BsFacebook />,
+			icon: <FaSquareFacebook />,
 			href: "https://www.facebook.com/GrigerDev/",
 		},
 		{
@@ -33,7 +37,7 @@ function SocialICons() {
 		{
 			name: "github",
 			className: "github-icon social-icon",
-			icon: <FaGithub />,
+			icon: <FaGithubSquare />,
 			href: "https://github.com/Grigerlord",
 		},
 	];

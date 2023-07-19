@@ -1,11 +1,11 @@
 .main {
-    display: flex;
-    justify-content:space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-@media (max-width: 1400px) {
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-}
+/* @media (max-width: 1400px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+} */

@@ -4,9 +4,11 @@
 	justify-content: space-around;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	gap: 4rem;
+	gap: 2rem;
 	/* height: 100vh; */
 	padding: 2rem 4rem;
+	overflow: hidden;
+	position: relative;
 }
 
 .card > header {

@@ -30,7 +30,9 @@ function ButtonAction({
 
 		document.documentElement.className =
 			classTheme ?? document.documentElement.className;
-		className !== "anchor" ? setColorGradient(colorPointer) : null;
+		className !== "btnProyects" && className !== "btnExperiences"
+			? setColorGradient(colorPointer)
+			: null;
 		page ? setPage(page) : null;
 		data ? setInfoShowed(data) : null;
 	};

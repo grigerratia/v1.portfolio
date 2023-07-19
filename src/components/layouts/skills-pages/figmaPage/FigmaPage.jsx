@@ -13,7 +13,7 @@ export default function FigmaPage() {
 			</p>
 			<p>
 				De igual forma, puedes darle un vistazo a
-				{<Anchor anchor='#' text='Mi Cuanta Figma' />} y a algunos diseños que
+				{<Anchor anchor='#' text='Mi Cuenta Figma' />} y a algunos diseños que
 				he realizado.
 			</p>
 			<MyServices />

@@ -1,31 +1,31 @@
-@import '../base/base.css';
+@import "../base/base.css";
 
 .info-item {
-    /* box-shadow: -2px 0px 16px 1px #ff68179a; */
-    padding: 16px;
-    transition: all 0.2s ease-in;
-    border: solid 1px #08266d00;
-    display: flex;
-    flex-direction: column;
+	/* box-shadow: -2px 0px 16px 1px #ff68179a; */
+	padding: 12px;
+	transition: all 0.2s ease-in;
+	border: solid 1px #08266d00;
+	display: flex;
+	flex-direction: column;
 }
 
 .info-item:hover {
-    background-color: var(--info-item-color);
-    border-radius: 0.25rem;
-    border-top: solid 0.1px #e2e8f023;
-    border-left: solid 0.1px #e2e8f023;
-    border-right: solid 0.1px #06162b23;
-    border-bottom: solid 0.1px #06162b23;
+	background-color: var(--info-item-color);
+	border-radius: 0.25rem;
+	border-top: solid 0.1px #e2e8f023;
+	border-left: solid 0.1px #e2e8f023;
+	border-right: solid 0.1px #06162b23;
+	border-bottom: solid 0.1px #06162b23;
 }
 
 .info-item:hover .info-elements .anchor {
-    color: var(--principal);
+	color: var(--principal);
 }
 
 .info-elements {
-    padding-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    overflow: visible;
+	padding-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	overflow: visible;
 }

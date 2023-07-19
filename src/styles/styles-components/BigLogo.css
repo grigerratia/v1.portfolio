@@ -17,6 +17,8 @@
 	border-radius: var(--border-logo-img);
 	background-position: center;
 	overflow: visible;
+	opacity: 0.2;
+	filter: blur(10px);
 }
 
 @keyframes animLogo {

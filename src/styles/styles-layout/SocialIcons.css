@@ -1,21 +1,21 @@
-@import '../base/base.css';
+@import "../base/base.css";
 
 .socialIcons-menu {
-    display: flex;
-    gap: 1rem;
-    overflow: visible;
+	display: flex;
+	gap: 1rem;
+	overflow: visible;
 }
 
 .socialIcons-menu a:hover {
-    color: var(--white);
+	color: var(--white);
 }
 
 .social-icon {
-    font-size: 1.5rem;
-    color: var(--white);
-    transition: all 0.2s ease-in-out;
+	font-size: 1.5rem;
+	color: var(--white);
+	transition: all 0.2s ease-in-out;
 }
 
 .social-icon:hover {
-    transform: translateY(-4px);
+	transform: translateY(-4px);
 }

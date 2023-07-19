@@ -1,8 +1,8 @@
 .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: max-content;
-    max-width: 500px;
-    gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: max-content;
+	max-width: 500px;
+	gap: 1rem;
 }

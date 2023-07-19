@@ -12,7 +12,7 @@ export default function ExpressPage() {
 			<p>
 				Observa {<Anchor anchor='#' text='Este Trozo De Código' />} que
 				implementé en un proyecto para {<Anchor anchor='#' text='Cesticom' />}.
-				Parece una obra de arte de la ingeniería Web ,gracias a Express.Js.
+				Parece una obra de arte de la ingeniería Web, gracias a Express.Js.
 			</p>
 			<MyServices />
 		</>

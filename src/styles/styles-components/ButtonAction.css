@@ -1,24 +1,26 @@
-@import url('../base/base.css');
+@import url("../base/base.css");
 
-.action {
-    background-color: var(--button-background);
-    padding: 0.5rem;
-    border-radius: 9999px;
-    cursor: pointer;
-    color: var(--principal);
-    font-size: 0.8rem;
+.btnProyects {
+	background-color: var(--button-background);
+	padding: 0.5rem;
+	border-radius: 9999px;
+	cursor: pointer;
+	color: var(--principal);
+	font-size: 0.8rem;
 }
 
-.action:hover {
-    color: var(--white);
+.btnProyects:hover {
+	color: var(--white);
 }
 
-.anchor {
-    padding: 4px;
-    font-size: .8rem;
-    cursor: pointer;
+.btnExperiences,
+.btnSkills {
+	padding: 4px;
+	font-size: 0.8rem;
+	cursor: pointer;
 }
 
-.anchor:hover {
-    color: var(--white) !important;
+.btnExperiences:hover,
+.btnSkills:hover {
+	color: var(--white) !important;
 }

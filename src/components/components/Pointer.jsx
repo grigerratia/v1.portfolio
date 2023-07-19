@@ -22,7 +22,7 @@ function Pointer() {
 			style={{
 				background: `radial-gradient(600px at ${position.x}px ${position.y}px, ${colorGradient}, transparent 80%)`,
 			}}>
-			<div className='center-pointer'></div>
+			{/* <div className='center-pointer'></div> */}
 		</div>
 	);
 }

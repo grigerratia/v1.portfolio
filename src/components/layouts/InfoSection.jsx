@@ -307,15 +307,15 @@ function InfoSection() {
 				`. Es uno de esos retos en mi vida que recuerdo de forma especial, por el trabajo en equipo y la superación personal. `,
 			],
 		},
-		{
-			name: "Iglesia Betel",
-			key: 22,
-			colorPointer: "#032731",
-			imgProyect: "https://thumbs2.imgbox.com/86/dc/yNMVVtcI_t.png",
-			years: "2023 . 2021",
-			texto:
-				"Soy cristiano y fiel seguidor de las enseñanzas de Dios y Jesucristo. Me congrego en la Iglesia Bíblica Bautista Betel, así que puedes hacerte una idea de este proyecto. Es una página para darla a conocer. Eso y otras cosas.",
-		},
+		// {
+		// 	name: "Iglesia Betel",
+		// 	key: 22,
+		// 	colorPointer: "#032731",
+		// 	imgProyect: "https://thumbs2.imgbox.com/86/dc/yNMVVtcI_t.png",
+		// 	years: "2023 . 2021",
+		// 	texto:
+		// 		"Soy cristiano y fiel seguidor de las enseñanzas de Dios y Jesucristo. Me congrego en la Iglesia Bíblica Bautista Betel, así que puedes hacerte una idea de este proyecto. Es una página para darla a conocer. Eso y otras cosas.",
+		// },
 	];
 
 	//==========================================================================================================

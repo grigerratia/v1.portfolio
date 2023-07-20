@@ -11,10 +11,10 @@ import "../../styles/styles-layout/SocialIcons.css";
 function SocialICons() {
 	const ICONS = [
 		{
-			name: "twitter",
-			className: "twitter-icon social-icon",
-			icon: <FaTwitterSquare />,
-			href: "https://twitter.com/grigerratia",
+			name: "github",
+			className: "github-icon social-icon",
+			icon: <FaGithubSquare />,
+			href: "https://github.com/Grigerlord",
 		},
 		{
 			name: "linkedin",
@@ -23,10 +23,10 @@ function SocialICons() {
 			href: "https://www.linkedin.com/in/griger-ratia-880899161/",
 		},
 		{
-			name: "facebook",
-			className: "facebook-icon social-icon",
-			icon: <FaSquareFacebook />,
-			href: "https://www.facebook.com/GrigerDev/",
+			name: "twitter",
+			className: "twitter-icon social-icon",
+			icon: <FaTwitterSquare />,
+			href: "https://twitter.com/grigerratia",
 		},
 		{
 			name: "instagram",
@@ -34,12 +34,12 @@ function SocialICons() {
 			icon: <FaInstagramSquare />,
 			href: "https://www.instagram.com/griger_rt/",
 		},
-		{
-			name: "github",
-			className: "github-icon social-icon",
-			icon: <FaGithubSquare />,
-			href: "https://github.com/Grigerlord",
-		},
+		// {
+		// 	name: "facebook",
+		// 	className: "facebook-icon social-icon",
+		// 	icon: <FaSquareFacebook />,
+		// 	href: "https://www.facebook.com/GrigerDev/",
+		// },
 	];
 	return (
 		<div className='socialIcons-menu'>

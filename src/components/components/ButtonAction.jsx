@@ -23,9 +23,12 @@ function ButtonAction({
 	data,
 	element,
 }) {
-	const { setColorGradient, setPage, setInfoShowed } = useContext(AppContext);
+	const { setColorGradient, setPage, setInfoShowed, setMyPhoto } =
+		useContext(AppContext);
 
 	const setLayout = () => {
+		setMyPhoto("6rem");
+
 		element ? setInfoShowed(element) : null;
 
 		document.documentElement.className =

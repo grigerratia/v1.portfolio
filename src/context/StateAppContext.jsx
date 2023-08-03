@@ -12,6 +12,7 @@ function StateAppContext({ children }) {
 	const [colorGradient, setColorGradient] = useState("#032731");
 	const [page, setPage] = useState(DetailsPage);
 	const [infoShowed, setInfoShowed] = useState({});
+	const [myPhoto, setMyPhoto] = useState("11rem");
 
 	return (
 		<AppContext.Provider
@@ -22,6 +23,8 @@ function StateAppContext({ children }) {
 				setPage,
 				infoShowed,
 				setInfoShowed,
+				myPhoto,
+				setMyPhoto,
 			}}>
 			{children}
 		</AppContext.Provider>

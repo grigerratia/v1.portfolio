@@ -1,32 +1,33 @@
 main .general .photo-name {
 	display: flex;
-	flex-direction: column;
+	gap: 1rem;
+	margin-bottom: 1rem;
+	/* justify-content: space-between; */
 }
 
-/* main .general .photo-name:hover + hr {
-    background-color: #ff7423;
-} */
-
-.general .photo-name .box-photoName {
-	display: flex;
-	align-items: center;
+.general .photo-name img {
+	/* width: 11rem;
+	height: 11rem; */
+	border-radius: 4px;
+	transition: all 0.3s ease-in-out;
+	order: -1;
 }
 
-.general .photo-name .box-photoName img {
+/* .general .photo-name .box-photoName img {
 	background-color: var(--principal);
 	width: 0px;
 	height: 40px;
 	border-radius: 9999px;
 	transition: all 0.3s ease-in-out;
 }
+*/
 
-.general .photo-name:hover > .box-photoName img {
-	width: 40px;
-	margin-right: 1rem;
+.general .photo-name:hover img {
 }
 
-.general .photo-name:hover .download_cv h2 {
+.general .photo-name:hover .download_cv a {
 	color: var(--principal);
+	opacity: 1;
 	margin-left: 0;
 }
 
@@ -34,43 +35,41 @@ main .general .photo-name {
 	display: flex;
 	flex-direction: column;
 	width: 500px;
-	height: 500px;
+	padding: 1rem;
+	/* height: 500px; */
 }
-
-.general .photo-name h1 {
-	margin: 0;
+.general .photo-name .myName {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin: 3px 0px;
 	color: var(--white);
-	letter-spacing: 0.0005em;
-	word-spacing: 0.1rem;
-}
-
-.general .photo-name h2 {
-	margin: 0;
-	color: var(--white);
-	margin-top: 0px;
-	margin-left: 100px;
-	font-size: 1.34rem;
+	/* letter-spacing: 0.0005em;
+	word-spacing: 0.1rem; */
 }
 
 .general .photo-name .download_cv {
 	display: flex;
 	align-items: center;
+	gap: 0.5rem;
+}
+
+.general .photo-name .myTitle {
+	margin: 0;
+	color: var(--white);
+	font-weight: bolder;
+	margin-top: 0px;
+	font-size: 1.34rem;
 }
 
 .general .photo-name .download_cv a {
-	opacity: 0;
 	font-size: 2rem;
-	transition: all 0.1s !important;
-}
-
-.general .photo-name:hover .download_cv a {
-	opacity: 1;
-	padding-left: 1rem;
-}
-
-.general .photo-name .download_cv a:hover {
-	cursor: pointer;
+	opacity: 0;
 	color: var(--principal) !important;
+}
+
+.general .photo-name .download_cv a:hover * {
+	cursor: pointer;
+	color: aqua;
 }
 
 .general hr {
